@@ -1,0 +1,31 @@
+@prefix c: <urn:contexton:vocab:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+c: a owl:Ontology ; rdfs:label "contexton vocabulary 0.2" .
+c:ImageNode a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:Link a rdfs:Class .
+c:RelationInterpretation a rdfs:Class ; rdfs:subClassOf prov:Entity ;
+ rdfs:comment "An attributed interpretation of a directed link, not an assertion of causal truth." .
+c:Opinion a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:Draft a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:Paragraph a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:SourceSnapshot a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:logic a skos:ConceptScheme ; skos:prefLabel "논리적 관계"@ko .
+c:perspective a skos:ConceptScheme ; skos:prefLabel "정치적·입장 관계"@ko .
+c:stances a skos:ConceptScheme .
+c:support a skos:Concept ; skos:inScheme c:stances ; skos:prefLabel "지지함"@ko .
+c:not-support a skos:Concept ; skos:inScheme c:stances ; skos:prefLabel "지지하지 않음"@ko .
+c:undecided a skos:Concept ; skos:inScheme c:stances ; skos:prefLabel "판단 유보"@ko .
+c:source a owl:ObjectProperty ; rdfs:domain c:Link ; rdfs:range c:ImageNode .
+c:target a owl:ObjectProperty ; rdfs:domain c:Link ; rdfs:range c:ImageNode .
+c:about a owl:ObjectProperty .
+c:relationType a owl:ObjectProperty ; rdfs:range skos:Concept .
+c:stance a owl:ObjectProperty ; rdfs:domain c:Opinion ; rdfs:range skos:Concept .
+c:snapshot a owl:ObjectProperty ; rdfs:domain c:Draft ; rdfs:range c:SourceSnapshot .
+# No transitivity, negation or truth inference is assigned to user relation labels.
+
+c:OpinionReaction a rdfs:Class ; rdfs:subClassOf prov:Entity .
+c:reaction a owl:DatatypeProperty ; rdfs:domain c:OpinionReaction .

@@ -1,0 +1,11 @@
+#collab-panel details,#personal-copies{margin-top:var(--space-6);border-top:1px solid var(--border);padding-top:var(--space-4)}
+#collab-panel summary,#personal-copies>summary{cursor:pointer;font-weight:600;padding:var(--space-2) 0}
+#collab-current{margin-top:var(--space-6);padding-top:var(--space-4);border-top:1px solid var(--border)}
+#collab-current-title{font-size:var(--type-section-size);font-weight:600}
+#collab-members{padding-left:20px}#collab-members li{padding:var(--space-2) 0}#collab-members button{margin-left:var(--space-4)}
+#collab-message[data-error=true]{color:#953a32}#collab-sync-detail{overflow-wrap:anywhere}
+#collab-invite-value{font-family:monospace;font-size:var(--type-label-size)}
+
+.canvas-document-name{display:inline-block;max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle}
+
+#cloud-dialog:has(#cloud-member:not([hidden])):has(#personal-copies:not([open])) #cloud-status{display:none}

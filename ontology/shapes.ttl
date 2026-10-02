@@ -1,0 +1,37 @@
+@prefix c: <urn:contexton:vocab:> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+c:AttributionShape a sh:NodeShape ;
+ sh:targetClass c:ImageNode, c:RelationInterpretation, c:Opinion, c:Draft ;
+ sh:property [ sh:path prov:wasAttributedTo ; sh:minCount 1 ; sh:maxCount 1 ; sh:class prov:Agent ] ;
+ sh:property [ sh:path prov:generatedAtTime ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:dateTime ] .
+c:NodeShape a sh:NodeShape ; sh:targetClass c:ImageNode ;
+ sh:property [ sh:path c:title ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ; sh:maxLength 80 ] ;
+ sh:property [ sh:path rdf:value ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:maxLength 200 ] ;
+ sh:or ( [ sh:property [ sh:path rdf:value ; sh:minLength 1 ] ] [ sh:property [ sh:path c:image ; sh:minCount 1 ; sh:minLength 1 ] ] ) .
+c:LinkShape a sh:NodeShape ; sh:targetClass c:Link ;
+ sh:property [ sh:path c:source ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:ImageNode ; sh:disjoint c:target ] ;
+ sh:property [ sh:path c:target ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:ImageNode ] .
+c:InterpretationShape a sh:NodeShape ; sh:targetClass c:RelationInterpretation ;
+ sh:property [ sh:path c:about ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:Link ] ;
+ sh:property [ sh:path c:relationType ; sh:minCount 1 ; sh:maxCount 1 ; sh:class skos:Concept ] ;
+ sh:property [ sh:path c:definition ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ; sh:maxLength 200 ] ;
+ sh:property [ sh:path c:family ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("logic" "perspective") ] .
+c:OpinionShape a sh:NodeShape ; sh:targetClass c:Opinion ;
+ sh:property [ sh:path c:about ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:RelationInterpretation ] ;
+ sh:property [ sh:path c:stance ; sh:minCount 1 ; sh:maxCount 1 ; sh:in (c:support c:not-support c:undecided) ] ;
+ sh:property [ sh:path rdf:value ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ; sh:maxLength 200 ] .
+c:ParagraphShape a sh:NodeShape ; sh:targetClass c:Paragraph ;
+ sh:property [ sh:path rdf:value ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+ sh:property [ sh:path c:origin ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ("network" "creative" "verify") ] ;
+ sh:property [ sh:path prov:wasDerivedFrom ; sh:class prov:Entity ] .
+c:DraftShape a sh:NodeShape ; sh:targetClass c:Draft ;
+ sh:property [ sh:path c:snapshot ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:SourceSnapshot ] ;
+ sh:property [ sh:path c:paragraphs ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:BlankNodeOrIRI ] .
+
+c:ReactionShape a sh:NodeShape ; sh:targetClass c:OpinionReaction ;
+ sh:property [ sh:path c:about ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:Opinion ] ;
+ sh:property [ sh:path c:reaction ; sh:minCount 1 ; sh:maxCount 1 ; sh:in ( "agree" "veto" ) ] .

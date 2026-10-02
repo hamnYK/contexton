@@ -1,0 +1,36 @@
+#cloud-dialog{padding:0;width:560px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 32px);border:1px solid var(--border);border-radius:12px;color:var(--ink);background:var(--surface);overflow:auto}
+#cloud-dialog::backdrop{background:#20252266}
+#cloud-dialog .inspector-header{position:sticky;top:0;background:var(--surface);z-index:1}
+.cloud-body{padding:var(--space-6,24px)}
+.cloud-body label{display:grid;grid-template-columns:minmax(0,1fr);justify-content:normal;gap:var(--space-2,8px);margin:var(--space-4,16px) 0}
+.cloud-body input,.cloud-body select{width:100%;min-width:0;padding:10px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--ink);font:var(--type-input-weight,400) var(--type-input-size,16px)/var(--type-input-line,26px) var(--font-sans)}
+.cloud-body h3{font-size:var(--type-section-size,18px);line-height:var(--type-section-line,26px);font-weight:var(--type-section-weight,600)}
+.cloud-actions{display:flex;flex-wrap:wrap;gap:var(--space-3,12px);margin-top:var(--space-4,16px)}
+.cloud-body button:disabled{opacity:.5;cursor:not-allowed}
+.cloud-body p{overflow-wrap:anywhere}
+#cloud-status{white-space:pre-wrap;line-height:var(--type-body-line,22px);margin:var(--space-4,16px) 0 0}
+#cloud-status[data-error=true]{color:#953a32}
+#cloud-member>section{border-top:1px solid var(--border);padding-top:var(--space-4,16px);margin-top:var(--space-6,24px)}
+#cloud-load-review{padding:var(--space-4,16px);border:1px solid var(--border);border-radius:8px;margin-top:var(--space-4,16px)}
+#cloud-dialog [hidden]{display:none!important}
+#cloud-button{white-space:nowrap}
+
+/* Account and local backup share the standard canvas drawer. */
+#canvas-inspector[data-panel="account"]>.inspector-header{display:none}
+#canvas-inspector #cloud-dialog{display:flex;flex-direction:column;flex:1;min-height:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;border-radius:0;overflow:hidden}
+#canvas-inspector #cloud-dialog[hidden]{display:none!important}
+#cloud-dialog>.inspector-header{position:static;padding:16px 28px;flex-shrink:0}
+#cloud-dialog>.account-tabs{position:static;margin:24px 28px 0;flex-shrink:0}
+#cloud-dialog>.cloud-body{overflow:auto;min-height:0;flex:1;padding:24px 28px 36px}
+#cloud-dialog>.cloud-body>*{max-width:860px;margin-left:auto;margin-right:auto}
+#cloud-dialog #files-panel{padding:0;overflow:visible}
+#cloud-dialog #cloud-auth,#cloud-dialog #cloud-reset{max-width:640px}
+#cloud-dialog .account-tabs button{white-space:nowrap}
+@media(max-width:800px){#cloud-dialog>.inspector-header{padding:12px 16px}#cloud-dialog>.account-tabs{margin:16px 16px 0}#cloud-dialog>.cloud-body{padding:16px}#cloud-dialog .account-tabs button{padding:10px 12px;font-size:var(--type-label-size)}}
+
+#cloud-dialog #files-panel .workspace-toolbar>button{flex:0 0 auto;min-height:44px}
+
+body[data-canvas-locked="true"] .canvas-toolbar{opacity:.45}
+body[data-canvas-locked="true"] .canvas-bottom-note{visibility:hidden}
+
+#cloud-close:disabled{opacity:.45;cursor:not-allowed}

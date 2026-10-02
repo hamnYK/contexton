@@ -1,0 +1,51 @@
+/* Canonical type scale shared by the workspace, viewer and token export. */
+:root{
+ --font-sans:"Apple SD Gothic Neo","Malgun Gothic","맑은 고딕",system-ui,sans-serif;
+ --font-serif:Batang,"바탕",Georgia,serif;
+ --type-title-size:26px;--type-title-line:36px;--type-title-weight:600;
+ --type-section-size:20px;--type-section-line:30px;--type-section-weight:600;
+ --type-input-size:16px;--type-input-line:26px;--type-input-weight:400;
+ --type-body-size:16px;--type-body-line:26px;--type-body-weight:400;
+ --type-label-size:14px;--type-label-line:22px;--type-label-weight:500;
+ --type-caption-size:13px;--type-caption-line:21px;--type-caption-weight:400;
+ --type-fiction-size:17px;--type-fiction-line:32px;--type-fiction-weight:400;
+ --type-micro-size:12px;--type-specimen-size:32px;
+}
+body{font-family:var(--font-sans);font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
+button,input,select,textarea{font-family:var(--font-sans)}
+.section-heading h2,.draft-paper>h3,.type-title{font-size:var(--type-title-size);line-height:var(--type-title-line);font-weight:var(--type-title-weight)}
+.node-editor h3,.writing-materials h3,.relation-detail h3,.input-demo h3,.evidence-panel h3,.type-section{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:var(--type-section-weight)}
+textarea,.workspace input:not([type=checkbox]):not([type=file]),.workspace select,.proposal-form input,.proposal-form select,.writing-config-row select,.type-input{font-size:var(--type-input-size);line-height:var(--type-input-line);font-weight:var(--type-input-weight)}
+.workspace-node p,.discussion-comment p,.evidence-item p,.relation-detail>p,.draft-paragraph>p,.type-body{font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
+.primary-button,.secondary-button,.text-link,label,.workspace label,.type-label{font-size:var(--type-label-size);line-height:var(--type-label-line);font-weight:var(--type-label-weight)}
+.draft-paper[data-genre="fiction"] .draft-paragraph>p{font-family:var(--font-serif);font-size:var(--type-fiction-size);line-height:var(--type-fiction-line);font-weight:var(--type-fiction-weight)}
+.type-scale p{margin-top:8px}.mini-network{min-height:340px}.node-id,.art-caption{font-size:var(--type-micro-size)}
+.type-scale .type-title{font-size:var(--type-title-size);line-height:var(--type-title-line);font-weight:var(--type-title-weight)}
+.type-scale .type-section{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:var(--type-section-weight)}
+.type-scale .type-input{font-size:var(--type-input-size);line-height:var(--type-input-line);font-weight:var(--type-input-weight)}
+.type-scale .type-body{font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
+.type-scale .type-label{font-size:var(--type-label-size);line-height:var(--type-label-line);font-weight:var(--type-label-weight)}
+
+/* Readability rules also cover components with older fixed-size declarations. */
+:root{--muted:#535d56}
+body{letter-spacing:0}
+button,input,select,textarea{letter-spacing:normal}
+.primary-button,.secondary-button,.tool-button,.writing-tab{min-height:42px}
+.canvas-app .canvas-header .text-link,.canvas-app .canvas-toolbar .tool-button,.canvas-app .canvas-header-actions button,.canvas-app .writing-tab{font-size:var(--type-label-size);line-height:var(--type-label-line)}
+.canvas-app .workspace-node strong{font-size:17px;line-height:26px;font-weight:600}
+.canvas-app .workspace-node p{font-size:var(--type-body-size);line-height:var(--type-body-line)}
+.canvas-app .workspace-node small,.canvas-app #canvas-selection-status,.canvas-app .canvas-bottom-note,.canvas-app .canvas-statusbar #storage-status{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
+.canvas-app .canvas-edge-label{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
+.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:600}
+#ontology-view .ontology-controls label,#ontology-view .ontology-inspection>label{font-size:var(--type-label-size);line-height:var(--type-label-line)}
+#ontology-detail p{font-size:var(--type-body-size);line-height:var(--type-body-line)}
+#ontology-detail h4,#ontology-view footer,#ontology-counts,.ontology-legend,.ontology-hint{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
+#cloud-dialog .workspace-note,.workspace-note,.writing-hint,.writing-status,.component-note{font-size:var(--type-label-size);line-height:24px;color:var(--muted)}
+#cloud-status,#collab-message{font-size:var(--type-body-size);line-height:var(--type-body-line)}
+#cloud-dialog .cloud-body label,.api-settings label{font-weight:500;color:var(--ink)}
+#canvas-library .canvas-chip-open{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
+#cloud-dialog .cloud-body>p,#cloud-dialog #cloud-auth,#cloud-dialog #cloud-reset{max-width:680px}
+#cloud-dialog .account-tabs button{font-size:var(--type-label-size);line-height:var(--type-label-line)}
+#cloud-dialog>.inspector-header{gap:16px}#cloud-close{flex-shrink:0}
+.canvas-header-actions{gap:10px}.canvas-app .canvas-document{flex-shrink:0}
+@media(max-width:650px){.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:18px;line-height:28px}.canvas-app .canvas-header .text-link{font-size:13px}.canvas-app .canvas-bottom-note{font-size:12px;line-height:20px}.canvas-app .writing-tab{padding:10px 8px}}

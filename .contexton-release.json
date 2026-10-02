@@ -1,0 +1,194 @@
+{
+  "id": "2026-10-02T16-56-11-624Z-982562",
+  "obfuscator": "5.8.1",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "ai-client.js",
+      "sha256": "af090352318a4b7f2722112a144ade2c49dc99a52a6511083c956887b0f003b3"
+    },
+    {
+      "path": "app.js",
+      "sha256": "2dda1699f904596f9cdd22738975b72baf1b03dc2b3506a9d55866fdb0c3c48e"
+    },
+    {
+      "path": "canvas-delete.js",
+      "sha256": "12c7e7bcc6def51117beb80b35b2b3d23a09147d5010b032380094fec6579378"
+    },
+    {
+      "path": "canvas-library.js",
+      "sha256": "fb44c47c8fa4589ade2ee760b389c2fa5d2aa00d216ab0b3d43331c7fbae9fd3"
+    },
+    {
+      "path": "canvas-popover.js",
+      "sha256": "78684d8a988cd2130aea570e737a7e6fdf8ce6ed654e6e80e3c9344c859a6ea6"
+    },
+    {
+      "path": "canvas.css",
+      "sha256": "c8859badb3cfbcc55ee73dd5877a19362e2840ab361228b8ddc5404d54d2c3cb"
+    },
+    {
+      "path": "canvas.js",
+      "sha256": "0216c839b3c21dbb7294e8d4c81a8a42baa65319e456aaa002e3b72d40460182"
+    },
+    {
+      "path": "cloud-store.js",
+      "sha256": "7a7c1619e2ae2db82779c3f6e8444737a53147c4492514998c792d3dfdd951dc"
+    },
+    {
+      "path": "cloud.css",
+      "sha256": "4527c7137741da78319fdbfb6d604bc8b7e2a3ed05a1aec822acc1963f866df0"
+    },
+    {
+      "path": "cloud.js",
+      "sha256": "ad93979e8fabc32c641e92a2e015766e2fa36847f07e41a3371f54d20af21433"
+    },
+    {
+      "path": "collab-model.js",
+      "sha256": "87ef964128fa16f4b20ed32031245d6507ff2f5523c978ca6ae4bbfb81188c39"
+    },
+    {
+      "path": "collab-store.js",
+      "sha256": "eb086b00684f8daa0c7e4cf0cb41c093ecba44a6b9be50355f8d2e97d0c18685"
+    },
+    {
+      "path": "collab.css",
+      "sha256": "aa0d32c4b1d086a8fa8781e27f2dfebb893be2d2e938b8bfedac1779bd33a6e8"
+    },
+    {
+      "path": "collab.js",
+      "sha256": "f77c9f5797037095caffd1e9e7b6edf36d3b1ece78096b232a88843db476a635"
+    },
+    {
+      "path": "design-system-view.html",
+      "sha256": "59d254bcc6aaa29896b46e32f41eb7daaf168e9ee721e57cff4b3a969bcad0b2"
+    },
+    {
+      "path": "design-system.js",
+      "sha256": "bb632f91597786fa56dac79693f94173a4fbd1e916e7b6d78a703767b0aa7c15"
+    },
+    {
+      "path": "documentation.css",
+      "sha256": "7b0759a818255dcf978d0faaa358d4412a917898b03ce6f6d6bb3be89757cb3a"
+    },
+    {
+      "path": "guide-manual.html",
+      "sha256": "75a469cd19c5892feae0ba576ca1bd05e9cfb50fdfd3db5c60181d0cb3ad930b"
+    },
+    {
+      "path": "icons.css",
+      "sha256": "79e54c2c448d4086585d692401519cef860fd5767ee87d4b5d48cfd9e49ae926"
+    },
+    {
+      "path": "index.html",
+      "sha256": "c01e8f1633722554cf79809f1a34bcb487f5abcadf90ef27097c4d4bdea7b46c"
+    },
+    {
+      "path": "interface.css",
+      "sha256": "8c89422e5eb138632d1b1eed6fe8cbffa14857bb49a1b756aaf391382e768d96"
+    },
+    {
+      "path": "lib/supabase-LICENSE.txt",
+      "sha256": "334dd6820e2eaeab2064e7c59001b810566728a28a41a7c1dbf69bbee17d0936"
+    },
+    {
+      "path": "lib/supabase.js",
+      "sha256": "59d39487c3589843b410322d8a3d562ce022aba1e5ccb16898ef3fb2a0da2ecd"
+    },
+    {
+      "path": "lib/vis-network.min.js",
+      "sha256": "fc674cfa6cceb27a3b40ff4ea75c204a2d8570fb39b9a627127cf7039e141ad4"
+    },
+    {
+      "path": "model.js",
+      "sha256": "21acd274cf8d75f3e1d772a3bb0459c41a3d5c821e25ee7c0c29eabe71c1896d"
+    },
+    {
+      "path": "ontology/shapes.ttl",
+      "sha256": "06eea843d61e2bf51f70606fd63ebbebc2f0cae039c94e1054e742c0e6784f85"
+    },
+    {
+      "path": "ontology/vocabulary.ttl",
+      "sha256": "293060587ae56c53f7c6d643c0aa1742c32919070884eaa363f02d68c7f7c0ec"
+    },
+    {
+      "path": "ontology-data.js",
+      "sha256": "a5588a1c35763035d473dd8faaa68b3b0c66588de80e4d43bcf9a617972dc117"
+    },
+    {
+      "path": "ontology-model.js",
+      "sha256": "64f3026fc4c086cb19374bde8794a9c680bd90a2d215e685dba496359bd21cd4"
+    },
+    {
+      "path": "ontology-network.js",
+      "sha256": "9f97d671bba5c1bb8c8be4416b2e3bbba16afe50c47d1a99618833668cf792ab"
+    },
+    {
+      "path": "ontology-view.css",
+      "sha256": "fd11e089a51ecc28a1d0cfe11d9213d97c7d7bb4539db42d6769ccbc666bf35e"
+    },
+    {
+      "path": "ontology-view.js",
+      "sha256": "ebdd43c10e1c335e78368c987d85d8c8464f7aaf5f17386bdd833242b4c2fc6f"
+    },
+    {
+      "path": "relation-editor.js",
+      "sha256": "cf56e17114c97e092d6787a3261d771f295c60695455277b6d54195ea4144075"
+    },
+    {
+      "path": "relationships.js",
+      "sha256": "e8ab949883e7fc0e1e410221950dbc8a2457c2d4d11de17107aa282ae36a2749"
+    },
+    {
+      "path": "state.js",
+      "sha256": "d91964bb1ab7f2c85ed8f01c3208e5e4ed36ff6b138a3d22e2b55d0e10e9242e"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "76c29c0b07239ce596e4ab1379c0bd1fffde5621a1b9ffbc0ce2d3fd3bb78427"
+    },
+    {
+      "path": "supabase-config.js",
+      "sha256": "7979829e8356cbb00d5f6ca2b0db91cf021c1bdc896a737b98cd3c5f88b4f48b"
+    },
+    {
+      "path": "typography.css",
+      "sha256": "68945104a1b1f82202d9c45ce915185d1e4017d91d48d67f8097b20869f15105"
+    },
+    {
+      "path": "ui.js",
+      "sha256": "167394db68b1b8412de3716be141a8aa7dde3ab60c12f28adb455f494423fffe"
+    },
+    {
+      "path": "workspace-panels.js",
+      "sha256": "179e0a80369d6156b9ea7eade232cd2b75cced5f77e64cb23e25151ae0a023af"
+    },
+    {
+      "path": "workspace.css",
+      "sha256": "6732110b38c6cec28aa8c218e56e74c3e57b12f068a7d9c3866d8c62b7efc8c6"
+    },
+    {
+      "path": "workspace.js",
+      "sha256": "ee948a1ca12ac03375299069dbb6cdd6f9b6d1bd3d3b3e2d94a6dd1ceb6dcc92"
+    },
+    {
+      "path": "writing-ai.js",
+      "sha256": "5a2458fb0fd40a70d223e97daf02a3977963ffe6b0e48fa3feeaa0c8eab4c71b"
+    },
+    {
+      "path": "writing-guide.js",
+      "sha256": "33de1e8c5ed49a9f3c87b26966ff1306647380b20822454d347c9a957a98c985"
+    },
+    {
+      "path": "writing.css",
+      "sha256": "03d7b96a06fbc259a521bd8188e9a3aa76c3ad4ba4e420321ad5f75a87157044"
+    },
+    {
+      "path": "writing.js",
+      "sha256": "f233514986588f9a6a0ed740f4a0b6f5815fc1409f894c974af02e213788c944"
+    }
+  ]
+}
