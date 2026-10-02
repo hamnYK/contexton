@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-02T16-56-11-624Z-982562",
+  "id": "2026-10-02T19-05-47-340Z-fdcecc",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -8,11 +8,11 @@
     },
     {
       "path": "ai-client.js",
-      "sha256": "af090352318a4b7f2722112a144ade2c49dc99a52a6511083c956887b0f003b3"
+      "sha256": "0269a27320dc98ec19f9216d1be76bdf344a1c8fac3f265ffe7e6403799a5285"
     },
     {
       "path": "app.js",
-      "sha256": "2dda1699f904596f9cdd22738975b72baf1b03dc2b3506a9d55866fdb0c3c48e"
+      "sha256": "c37f87817deaa548b37411976e7a24e3d4d1ab9b1210d8b0685b32e8f08695fb"
     },
     {
       "path": "canvas-delete.js",
@@ -20,7 +20,7 @@
     },
     {
       "path": "canvas-library.js",
-      "sha256": "fb44c47c8fa4589ade2ee760b389c2fa5d2aa00d216ab0b3d43331c7fbae9fd3"
+      "sha256": "bd41cc919b6fb08d4c7a93d34e616528bde7264f9542cb15b59228172bd89126"
     },
     {
       "path": "canvas-popover.js",
@@ -32,7 +32,7 @@
     },
     {
       "path": "canvas.js",
-      "sha256": "0216c839b3c21dbb7294e8d4c81a8a42baa65319e456aaa002e3b72d40460182"
+      "sha256": "ce76c1def5ef566922c8e5afcff9bb1db0841b51eb28aafd6238c151f0c90c0d"
     },
     {
       "path": "cloud-store.js",
@@ -48,7 +48,7 @@
     },
     {
       "path": "collab-model.js",
-      "sha256": "87ef964128fa16f4b20ed32031245d6507ff2f5523c978ca6ae4bbfb81188c39"
+      "sha256": "ae55265e4e5962477d3895efd61ab3f95b40df559b0eaa0da5f925c2e6779a79"
     },
     {
       "path": "collab-store.js",
@@ -63,12 +63,72 @@
       "sha256": "f77c9f5797037095caffd1e9e7b6edf36d3b1ece78096b232a88843db476a635"
     },
     {
+      "path": "design-reference/assets/fonts/Pretendard-LICENSE.txt",
+      "sha256": "82e9c8a4b203261f10ddba1296422d64914ff3d4b7bd8a12896d03f0f088d70a"
+    },
+    {
+      "path": "design-reference/assets/fonts/PretendardVariable.woff2",
+      "sha256": "9599f12fd42fc0bce1cd50b47a0c022e108d7aa64dd0d1bb0ed44f3282d900b4"
+    },
+    {
+      "path": "design-reference/assets/fonts/SpaceGrotesk-LICENSE.txt",
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "path": "design-reference/assets/fonts/SpaceGrotesk-Variable.woff2",
+      "sha256": "8e085aa438094f11487a836652edd5c054fa6a96f63fc7c282105ee3a4b08c07"
+    },
+    {
+      "path": "design-reference/assets/fonts/SUITE-LICENSE.txt",
+      "sha256": "4511d445dd33512b573bcb7bea8a690538f46c04f3e72f002fdad7987c8286fa"
+    },
+    {
+      "path": "design-reference/assets/fonts/SUITE-Variable.woff2",
+      "sha256": "fc5e0648d5413b55b79ebbab0f50de561a026574cba3a9c8eb03d5bddd432263"
+    },
+    {
+      "path": "design-reference/assets/images/brand/studio-world.svg",
+      "sha256": "73cb6afba4b2f02dbfd89961a8b233cc349ae79cd52d20c9457e17fd9d7796fb"
+    },
+    {
+      "path": "design-reference/contexton.css",
+      "sha256": "b4b48e5f13e1aaf9c7e09afe3e277684d59b90b372900a6a64322df6e61d52c8"
+    },
+    {
+      "path": "design-reference/css/components.css",
+      "sha256": "99e461dcfdf676281aced63b68597f58712a61809865b8a02f37ca06a6e396a8"
+    },
+    {
+      "path": "design-reference/css/design-system.css",
+      "sha256": "b817e2616b3c38b582f0af2115072a176b52d58df8e6d8592dce46a45547b6c9"
+    },
+    {
+      "path": "design-reference/css/fonts.css",
+      "sha256": "790a1e4e0bf7c5c180d8c67e78caf9a39eaee67084f31a79423a7082b63bbbb9"
+    },
+    {
+      "path": "design-reference/css/style.css",
+      "sha256": "108b1bc8b9f3a693052af6a9fb1312e64ea46caed7cf397033ea099e1c2fcb16"
+    },
+    {
+      "path": "design-reference/css/tokens.css",
+      "sha256": "ab3849f252dd761ccd38735ecd6723e0ab9f8c437335220a34e9c0cfadd68d03"
+    },
+    {
+      "path": "design-reference/css/typography.css",
+      "sha256": "a86fec59b376e7dc5f2174b103ee65156e7e38a44c3fa00ced8cc8db624bfd4f"
+    },
+    {
+      "path": "design-reference/README.md",
+      "sha256": "e6954869bd8e42ed7f15d171c7819393312025c642590ea621dd5374c9d15017"
+    },
+    {
       "path": "design-system-view.html",
-      "sha256": "59d254bcc6aaa29896b46e32f41eb7daaf168e9ee721e57cff4b3a969bcad0b2"
+      "sha256": "bfffa2d04751cbfdc9220eb97f90aa01aacd52399a413cefc8cd4351ff2b5639"
     },
     {
       "path": "design-system.js",
-      "sha256": "bb632f91597786fa56dac79693f94173a4fbd1e916e7b6d78a703767b0aa7c15"
+      "sha256": "85e73b4d4d9d1a55674384c354d80fe0f1c1c28fc4b574288d800802944ff67b"
     },
     {
       "path": "documentation.css",
@@ -76,7 +136,7 @@
     },
     {
       "path": "guide-manual.html",
-      "sha256": "75a469cd19c5892feae0ba576ca1bd05e9cfb50fdfd3db5c60181d0cb3ad930b"
+      "sha256": "99f72ba576ba24f981aa6068ad3322d27f2e885a0304852b2aa2d29d1ca90fbe"
     },
     {
       "path": "icons.css",
@@ -84,11 +144,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "c01e8f1633722554cf79809f1a34bcb487f5abcadf90ef27097c4d4bdea7b46c"
+      "sha256": "4596c6018431f8d500e65c06077e3e6fb1fb2b4182ceaf5521ae8fbda6ef6647"
     },
     {
       "path": "interface.css",
-      "sha256": "8c89422e5eb138632d1b1eed6fe8cbffa14857bb49a1b756aaf391382e768d96"
+      "sha256": "f86d4c96e5a749b7d9cb66e30628547157614bc8661742304ad9982317aa51e6"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -104,27 +164,31 @@
     },
     {
       "path": "model.js",
-      "sha256": "21acd274cf8d75f3e1d772a3bb0459c41a3d5c821e25ee7c0c29eabe71c1896d"
+      "sha256": "e20e51bd61bd46cfdd52796ea824b34644e0137f6fcf2e03585b4338a687febb"
     },
     {
       "path": "ontology/shapes.ttl",
-      "sha256": "06eea843d61e2bf51f70606fd63ebbebc2f0cae039c94e1054e742c0e6784f85"
+      "sha256": "9082a469fa69a45db183bf26a7cd53931065b9ef1aa84468ee90d42ca7040647"
     },
     {
       "path": "ontology/vocabulary.ttl",
-      "sha256": "293060587ae56c53f7c6d643c0aa1742c32919070884eaa363f02d68c7f7c0ec"
+      "sha256": "509cdac3ccf08cf0262eef71dab05fdc887702c6429b6c1af3b88693be4d5a7e"
     },
     {
       "path": "ontology-data.js",
-      "sha256": "a5588a1c35763035d473dd8faaa68b3b0c66588de80e4d43bcf9a617972dc117"
+      "sha256": "2c0db8993d396019d7b7c354d9c1fc802223f86760cbae29b832b8988ea4e591"
+    },
+    {
+      "path": "ontology-input.js",
+      "sha256": "2ca531573e8c2698b05d608706680db927445194b3d2351d334ef01336587f43"
     },
     {
       "path": "ontology-model.js",
-      "sha256": "64f3026fc4c086cb19374bde8794a9c680bd90a2d215e685dba496359bd21cd4"
+      "sha256": "0102cf59df1e1510efb4bc58f39269af8a5dc4f369b60275d8792776754265f8"
     },
     {
       "path": "ontology-network.js",
-      "sha256": "9f97d671bba5c1bb8c8be4416b2e3bbba16afe50c47d1a99618833668cf792ab"
+      "sha256": "fa40ca329cf9615ebc2bdca5dbb59d64802da791c296fe697612d42618a9909e"
     },
     {
       "path": "ontology-view.css",
@@ -132,7 +196,7 @@
     },
     {
       "path": "ontology-view.js",
-      "sha256": "ebdd43c10e1c335e78368c987d85d8c8464f7aaf5f17386bdd833242b4c2fc6f"
+      "sha256": "b520ec00a252b7ab0d25e65feee656fdf51bbec68ea0952294f5ac8155c146bf"
     },
     {
       "path": "relation-editor.js",
@@ -155,8 +219,12 @@
       "sha256": "7979829e8356cbb00d5f6ca2b0db91cf021c1bdc896a737b98cd3c5f88b4f48b"
     },
     {
+      "path": "theme.css",
+      "sha256": "9b8104c4db5a0e942c7d1c24cab882a7965993de43a3c35d28c079b43a7d614b"
+    },
+    {
       "path": "typography.css",
-      "sha256": "68945104a1b1f82202d9c45ce915185d1e4017d91d48d67f8097b20869f15105"
+      "sha256": "dc1e21fe309052931d894e53f8ad71d574ba7671d0d26374f93dc3a0b4865a0e"
     },
     {
       "path": "ui.js",
@@ -180,11 +248,11 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "33de1e8c5ed49a9f3c87b26966ff1306647380b20822454d347c9a957a98c985"
+      "sha256": "29b24fb4b702f28559cbc5d824cc6a0a5efddd060f0afe0983d16635d741a2c1"
     },
     {
       "path": "writing.css",
-      "sha256": "03d7b96a06fbc259a521bd8188e9a3aa76c3ad4ba4e420321ad5f75a87157044"
+      "sha256": "d77a0ac882991e2b070e1c9d6b96ed701f387d843ed634cab2cc2d40d35a683e"
     },
     {
       "path": "writing.js",
