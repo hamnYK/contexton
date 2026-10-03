@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T06-40-21-119Z-8bae42",
+  "id": "2026-10-03T07-00-32-207Z-98e75e",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,7 +136,7 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "b66e7ee9d2467816914ff3eb26c1c7ca272bcccbe9e287c442db08543856c2da"
+      "sha256": "4394134b639185d0ae0e3294bfd9e8eef3c6b0092a8ff52e2a85f2b47fcd99e7"
     },
     {
       "path": "design-system-view.html",
@@ -160,11 +160,11 @@
     },
     {
       "path": "en.html",
-      "sha256": "28211833b0831aa76a0a19e11a3bdf95d0d564e5ff1c97ffcda8ff76add48e5e"
+      "sha256": "d0428b935658930fdc8e778c1c01f9d0e681e560a1d66dd6cb3716156234230f"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "209f809cda5a5309d5d85e0ae9b44f8f9e8f907e8a43cc18bb9f37dfff0d30bb"
+      "sha256": "5b4a2c3c68f1df109569e34010144503272acb5b4069046ee3161cdd0cb82ad1"
     },
     {
       "path": "guide-manual.html",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "1cb40faa88c2b22ba639e3c1eabba21a17a8de1fca79e5e7ccdf76fc8deee62b"
+      "sha256": "26ce6366d4f44e5b1196a574cf0f0f6abd057794b237a59777cab2a51fb76792"
     },
     {
       "path": "locale.css",
@@ -204,7 +204,7 @@
     },
     {
       "path": "locale.js",
-      "sha256": "f85262a08d1d17c2da47833cc028c6c33e7065c91f44edb760fe2e60e791813d"
+      "sha256": "f51c7adea106f70771a2139b97df1f103c8f82da8e0d9e8ee15fbf69a8cf9597"
     },
     {
       "path": "model.js",
@@ -224,7 +224,7 @@
     },
     {
       "path": "ontology-input.js",
-      "sha256": "2ca531573e8c2698b05d608706680db927445194b3d2351d334ef01336587f43"
+      "sha256": "cbf067da6a065d22a5894021cc4f61a65e79c6b53b0e3d85198c2f805cd47a50"
     },
     {
       "path": "ontology-model.js",
@@ -304,7 +304,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "e431ac65ae53b905bfb38f7842c05de9692c6d3a7029ccc80a489b34bfd2c00a"
+      "sha256": "2ad9aae005a3fffeae2260efd3757a5153fd4a5448b954fc7488a0d59a828232"
     },
     {
       "path": "writing-result.js",
