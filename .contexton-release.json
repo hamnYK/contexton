@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T03-38-04-381Z-5474df",
+  "id": "2026-10-03T03-54-15-157Z-d77fdc",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "aa0f4857c8337487331f396d6128873319e9bcf187f3448894c59069eb01f004"
+      "sha256": "bc72f9a06984c5265645b1b42ebc25935ce13f276961bb6e5fa9c4083104e711"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "759025afd1c20cc9e4c994f3fd81626a0e731061efb200310123c291f8fb65c7"
+      "sha256": "a3a406e17d40381e10810fd38b4ae60acddb532249e363eea63991d948a1c501"
     },
     {
       "path": "design-system.js",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "c504fe05ac3d48c8c490c55afa269337c8b543822b578e15be92a2da2081a06f"
+      "sha256": "ef970d6d1bcd556a6fe63478581204baa867c434b6c75b5fc799662aa79760b1"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "cc3b8b75935d13379a3a6958a90633f1a18d557dc59cf3423df9ff2c4d9f2b0d"
+      "sha256": "0c5cbbbd085852c0f4ae003dda6e4b5925123a403ddc2b08531ece1819bae7fa"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "c0d383e625bd525ddf01c0aab919237c2779b10c1c094b19db1a89790096b06f"
+      "sha256": "39aa64a1fd5e24debdc32ecbb0d4492f474858c25ec850f9bfe2ef0535285b22"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "f6f612c97763fe71d07b9564628f98cd2be733a4bf24d7ac75757b8f91aca5d9"
+      "sha256": "98d8dea025542083af7f3f6c062e63a4f8c1f613ce7229d14229cd0aeb477305"
     },
     {
       "path": "locale.css",
