@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T02-35-07-072Z-4e18ac",
+  "id": "2026-10-03T02-46-52-815Z-0dd2de",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -204,7 +204,7 @@
     },
     {
       "path": "locale.js",
-      "sha256": "799e624da469c49ac133f3a69de3be80fb345c4f712c07620b14547645a28888"
+      "sha256": "f85262a08d1d17c2da47833cc028c6c33e7065c91f44edb760fe2e60e791813d"
     },
     {
       "path": "model.js",
@@ -228,7 +228,7 @@
     },
     {
       "path": "ontology-model.js",
-      "sha256": "0102cf59df1e1510efb4bc58f39269af8a5dc4f369b60275d8792776754265f8"
+      "sha256": "d9c8e863135e9860490e27bccaea66ec6a87ab6becfa03fbcd07a213ea1ddbf6"
     },
     {
       "path": "ontology-network.js",
@@ -240,7 +240,7 @@
     },
     {
       "path": "ontology-view.js",
-      "sha256": "82443f02f648640f6b3d463e84ef6479160fe04fe7e7c241ae81f2f4f7afe4c5"
+      "sha256": "9ea1b574faf934ed0596ca3530e402e1375ff23646fd5daee21933fde20f79e1"
     },
     {
       "path": "relation-editor.js",
