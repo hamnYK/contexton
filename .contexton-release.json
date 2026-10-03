@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T04-41-36-506Z-925c86",
+  "id": "2026-10-03T05-07-05-727Z-b7f281",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "path": "admin.js",
-      "sha256": "ecf2c7dfe9e6564434b764d453d78cebada5a0d57c574f35c802ffb5ea1fb6db"
+      "sha256": "bf1ea4416db784dedbdec90ce21a07e34f78a6f25b64edf3ebf440c852793488"
     },
     {
       "path": "ai-client.js",
@@ -20,11 +20,11 @@
     },
     {
       "path": "canvas-delete.js",
-      "sha256": "12c7e7bcc6def51117beb80b35b2b3d23a09147d5010b032380094fec6579378"
+      "sha256": "75ec3e3babc6c07f38a7c53de22f62c16597063da6907229dea1de554c1a42c1"
     },
     {
       "path": "canvas-library.js",
-      "sha256": "b396e6e400946add6178d947e0d7664fe393583f154ffaa8b5e92aac9f755b50"
+      "sha256": "8de765554ea9b42d59c1c66fd8efa6588d576b91f60deddc4c4bc54286de0be5"
     },
     {
       "path": "canvas-popover.js",
@@ -64,7 +64,7 @@
     },
     {
       "path": "collab.js",
-      "sha256": "ffc7e23bc0c33157033420220c2eb4e16ebde0b6c008ea49c91429a940ddc3e1"
+      "sha256": "13ba316f58fa8ae6c7929112c791ba717538f2b7258e0a5f35da24df883b04b4"
     },
     {
       "path": "design-access.css",
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "bf60742d7fa8e69fa33f49cc656c4ac4aec66147b75d7d4026d5326624b56fa0"
+      "sha256": "95517957c57066cc4f392b883316c5457865bf79ea3361b84f9cdaab859a0ce2"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "8643960056593e936ac6c614254f723f6c6ed9caf96caf15877a3469d6e651cb"
+      "sha256": "e40fee9b5ed16c94a2de05dc800551e79cdb3280a4f6707c0e7de322d90a0249"
     },
     {
       "path": "design-system.js",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "9300186e9e82fbdd9659487e2d4fe8b26564a5ae761e4f00937add1c30953f47"
+      "sha256": "a473015b5ea0d52974d41b7e1765831e0a434728dc89fcd05d765a0877510ae2"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "58f50623a8e67594c84318227fc26618c4e744332e1c34ebb8204f3d75dcb33a"
+      "sha256": "8482456ecd3888e28fe8445e73ab942c265c5f5462d5520d1b7172d13581bc88"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "0ac48b54e3af48f0cd73703eb3c6e68de24c1ebf8353616148bd9341ecd3f970"
+      "sha256": "4aa6a485b0f41ed6330b41e0076aed1bac88bf8f8a383fcadcbdbcb603e5ba99"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "74c495b03eb1da07a35391a17bfa4a4b6724b7372e982b2e9c3cfefcb4ce8005"
+      "sha256": "7f612a6915c30f1156e3e331117e4bbf603a9bc2c72f04710fec3490aa9b5038"
     },
     {
       "path": "locale.css",
@@ -244,7 +244,7 @@
     },
     {
       "path": "relation-editor.js",
-      "sha256": "eb81cdc3bebfeafac3067e76cea4a19d76f739daed3507172c41e9099a4bc922"
+      "sha256": "88a003a9e7833f1625c272a08fab1eae7d3a5178e99f1edd1fe84aee452e5ccb"
     },
     {
       "path": "relationships.js",
@@ -284,7 +284,7 @@
     },
     {
       "path": "ui.js",
-      "sha256": "167394db68b1b8412de3716be141a8aa7dde3ab60c12f28adb455f494423fffe"
+      "sha256": "eec4daab694c83f681c1b8cfdba4980ce1a6e7012078166a798a66c1e02a1056"
     },
     {
       "path": "workspace-panels.js",
