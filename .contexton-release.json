@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T06-08-40-978Z-32ce58",
+  "id": "2026-10-03T06-27-51-061Z-7c74a9",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "dd84c7d38ef3dfcd9dcb4c0696c1b42c43f51be09d6fe744fc3f0b33724200ee"
+      "sha256": "b66e7ee9d2467816914ff3eb26c1c7ca272bcccbe9e287c442db08543856c2da"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "9f0246cc13ca626f07e5e984c397e9a43ea8942f3d3b66e9da47d9b193b795f5"
+      "sha256": "46bb3c3630bd51b94d3a00611d21fbf755ff7dc852abbde7380f9bfa20f4bfe6"
     },
     {
       "path": "design-system.js",
@@ -160,15 +160,15 @@
     },
     {
       "path": "en.html",
-      "sha256": "286453bc0bfd7e9655c16d96d5b75ac457d2f393f5b19f78f01c69903df5c9bc"
+      "sha256": "28211833b0831aa76a0a19e11a3bdf95d0d564e5ff1c97ffcda8ff76add48e5e"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "b42e91a3fdde4c4f33db5d465992c9602ed87374fc5ca4c5ad22f7b76b7f7d05"
+      "sha256": "209f809cda5a5309d5d85e0ae9b44f8f9e8f907e8a43cc18bb9f37dfff0d30bb"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "f0be8c8ca840ebaebdab1da05f09135772360443ffccfb91fbc280f71c1dc4a8"
+      "sha256": "12a12350a2340671945c933c6b47fba691302d0dbf2da4a54039bcb4e16c9039"
     },
     {
       "path": "icons.css",
@@ -176,11 +176,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "856b244beb1449822f73df5d3e55d14e7914be4053d44c7a0b2ab0db46f7c1dc"
+      "sha256": "0252eefcbe56defc7e8a82d9f4fa848c32edb0752a61a4f00c2a9e481c661343"
     },
     {
       "path": "interface.css",
-      "sha256": "c6819f8ded0a60bf76a8ebe1b289e7180b15dc4ba58a74e0bcbcab8f9309d6fe"
+      "sha256": "da9c647672d3adedccbd11d39078f37ea1af56116969b1fc24cdb960a873dc5b"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "0ef54ced8641d850038aa2ed457f2eb572171dd5b690348fb9e1277767ef7cb6"
+      "sha256": "05412d35a43278ba9b63d74aaa6b463017054907a959aeb5113a2583e5971ed1"
     },
     {
       "path": "locale.css",
@@ -300,11 +300,15 @@
     },
     {
       "path": "writing-ai.js",
-      "sha256": "16df9ffa6fc97fcc998edecb34cb13ac4715f338b663c909879f8556a911682a"
+      "sha256": "f2846166e1272a00c5e4476fb5b01b1c0e259936dcb337da8dfdd37c4d5c5db1"
     },
     {
       "path": "writing-guide.js",
       "sha256": "e431ac65ae53b905bfb38f7842c05de9692c6d3a7029ccc80a489b34bfd2c00a"
+    },
+    {
+      "path": "writing-result.js",
+      "sha256": "d46010c6f7131683ba292773a6ac1053c85f06bb341b1a9e7f3b38a5df3cf9b5"
     },
     {
       "path": "writing.css",
