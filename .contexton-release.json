@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T07-14-47-554Z-f2b4fa",
+  "id": "2026-10-03T07-26-46-197Z-af07bf",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -148,7 +148,7 @@
     },
     {
       "path": "documentation.css",
-      "sha256": "7b0759a818255dcf978d0faaa358d4412a917898b03ce6f6d6bb3be89757cb3a"
+      "sha256": "651b5bb272e2bd699820bd43626c22c29aeebe090f71f0cca71f48ad2631c9e4"
     },
     {
       "path": "donation.css",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "44df70ccca8f7d498a6bca5b538b8cacf2d068bd5877bdd7d190f9c0c4ba1c4f"
+      "sha256": "dcf0b62f92ceda4ca927bea477c095621be3424dd8714fdeb8af439886c028ab"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "8c78f851fea60e1978405df9e660611084a508a98bf32196864ba6c40c9c9967"
+      "sha256": "0f5844c256abde2004de92be69d4d43b1960cfda2a09c76b8bcc24cd85adb978"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "da9c647672d3adedccbd11d39078f37ea1af56116969b1fc24cdb960a873dc5b"
+      "sha256": "96012cfd669cd84a3bb9ac5c9196f5c788fed418e37fa9286305dfe5c614c98c"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "8dd2070dc1a03875ac8c28f2f03fc05caaf8c8ff47a7f1172bb37b88ff33b71c"
+      "sha256": "36106034bc555910fab85c9bcfd09df1dbeac8473b733e235b5f8e5bb5b90479"
     },
     {
       "path": "locale.css",
@@ -244,7 +244,7 @@
     },
     {
       "path": "relation-editor.js",
-      "sha256": "cd28fb0d3ea1ddcb83d39212bff26dea9adfa9ab9c2439e17255e802bbf18f42"
+      "sha256": "90c99b5a04e00a724411c76e1827d14fe5a9d1c344fb15d53390ec11f50bb9b5"
     },
     {
       "path": "relationships.js",

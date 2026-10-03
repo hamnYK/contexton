@@ -160,3 +160,5 @@ body[data-page="canvas"] #canvas-writing-scope{display:none}
 #ai-result-references summary{font-size:12px;color:var(--muted);cursor:pointer}#ai-result-references code{display:block;margin:8px 0;white-space:normal;overflow-wrap:anywhere}
 #ai-original{max-width:76ch;margin:24px 0;border:1px solid var(--border);border-radius:6px;padding:16px}#ai-original summary{cursor:pointer;font-weight:600}#ai-original-text{width:100%;min-height:220px;margin-top:12px;font-size:13px;line-height:1.7}
 @media(max-width:600px){#ai-result-text{padding:18px;font-size:15px}#ai-result-text h2{font-size:1.3em}}
+
+.relation-help-link{display:inline-block;margin:12px 0;text-underline-offset:3px}
