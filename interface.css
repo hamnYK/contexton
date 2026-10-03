@@ -108,3 +108,15 @@ body[data-page=guide] .sidebar{background:var(--color-surface)}.doc-note,.viewer
 .canvas-viewport[inert] .canvas-empty-state,.canvas-viewport:has(#workspace-nodes .workspace-node) .canvas-empty-state,body[data-canvas-locked="true"] .canvas-empty-state{display:none}
 
 .canvas-app .canvas-statusbar{display:grid;grid-template-columns:minmax(0,1fr) auto auto auto;align-items:center;gap:8px 20px}.canvas-statusbar #storage-status{min-width:0;overflow-wrap:anywhere}.canvas-copyright{font:inherit;text-align:right;white-space:nowrap}@media(max-width:800px){.canvas-app .canvas-statusbar{grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding:6px 12px}.canvas-statusbar #canvas-count{display:none}.canvas-copyright{grid-column:1/-1;white-space:normal;font-size:11px;line-height:18px}}
+
+/* Compact relationship selection: name, family and explicit selected state. */
+#relationship-panel #proposal-list{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+#relationship-panel .proposal-card{display:grid;grid-template-columns:minmax(0,1fr) auto 18px;align-items:center;gap:12px;width:100%;min-height:60px;padding:12px 14px;border:1px solid var(--border);border-radius:6px;background:var(--surface);box-shadow:none;cursor:pointer}
+#relationship-panel .proposal-card strong{grid-column:1;grid-row:1;min-width:0;font-size:15px;line-height:1.5;font-weight:600;color:var(--ink)}
+#relationship-panel .proposal-card .pill{grid-column:2;grid-row:1;max-width:150px;min-width:0;margin:0;padding:3px 8px;font-size:11px;line-height:1.5;font-weight:500;white-space:normal;text-align:center}
+#relationship-panel .proposal-card::after{content:'';grid-column:3;grid-row:1;width:18px;text-align:center;color:var(--focus);font-size:16px;font-weight:700}
+#relationship-panel .proposal-card:hover{background:var(--focus-soft);border-color:#b2c2df}
+#relationship-panel .proposal-card.active{background:var(--focus-soft);border-color:#98add6;box-shadow:inset 3px 0 0 var(--focus)}
+#relationship-panel .proposal-card.active::after{content:'✓'}
+#relationship-panel .proposal-card:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+@media(max-width:480px){#relationship-panel .proposal-card{gap:8px;padding:10px 12px}#relationship-panel .proposal-card .pill{max-width:120px}}

@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T03-23-34-285Z-f312a6",
+  "id": "2026-10-03T03-32-36-412Z-1f7d69",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "0544d3ffa9f0534f8e62dd9309b6c85ddece30319970762aa25a296203ab3656"
+      "sha256": "12db608405c7fd17439e990e5be15aa8fa9aff3801708337698a5197749b2972"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "a3726f15ed95f8692a76e218aa2133752f5b0d104ca52e6a8c72f461019538f4"
+      "sha256": "e598f1172c176aa59f7a7abd68b85e153093dbed9339f665568c7d2cf41bcce9"
     },
     {
       "path": "design-system.js",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "09d9961f96ee12d6d16c06d434f163059b806e34839fb24df84c30ba742e5a6d"
+      "sha256": "5e208c923fd15fbcaeefbf3c1efe919ef08f64326dbdd963556550ef7c247f28"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "307eab91e7b1e573ffe905a3ca390f0d2196ef09dc0c4a4b211fc6d15cb8ed5f"
+      "sha256": "8344b758f1b597ce1e42c202f5221628d5060c5d3f3bff4155dde7ff573a12be"
     },
     {
       "path": "locale.css",
