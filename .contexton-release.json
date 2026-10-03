@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T07-42-33-624Z-764559",
+  "id": "2026-10-03T08-09-05-050Z-b43b26",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "dcf0b62f92ceda4ca927bea477c095621be3424dd8714fdeb8af439886c028ab"
+      "sha256": "4190d8bcb0240e9a526d5a1bc8cf45bc0799ad2aa4204cb6eb0ed4addec912cd"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "0f5844c256abde2004de92be69d4d43b1960cfda2a09c76b8bcc24cd85adb978"
+      "sha256": "fd9af33d46fac50c7a5036d45760084b83bd671769c8ab5abe9485c62d366916"
     },
     {
       "path": "icons.css",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "36106034bc555910fab85c9bcfd09df1dbeac8473b733e235b5f8e5bb5b90479"
+      "sha256": "84c49333b3fc34df1dfd8cb3596ce7f7026ced6bb1050ad41e46caabc58c93c6"
     },
     {
       "path": "locale.css",
@@ -304,7 +304,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "2ad9aae005a3fffeae2260efd3757a5153fd4a5448b954fc7488a0d59a828232"
+      "sha256": "d06b151b9c23fa2b3805b67dcd9dfdc348468eece50795097c5afd08b36da03f"
     },
     {
       "path": "writing-result.js",
