@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T06-27-51-061Z-7c74a9",
+  "id": "2026-10-03T06-40-21-119Z-8bae42",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "path": "ai-client.js",
-      "sha256": "7254d005d7c68343cbdefeb6d2c6213d1288a8904d8ad056323ca12d4da74451"
+      "sha256": "3ad2bb1a6413c7e4e181786acb0a650c8c90c04f45d43f6766abbb746aefa600"
     },
     {
       "path": "app.js",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "05412d35a43278ba9b63d74aaa6b463017054907a959aeb5113a2583e5971ed1"
+      "sha256": "1cb40faa88c2b22ba639e3c1eabba21a17a8de1fca79e5e7ccdf76fc8deee62b"
     },
     {
       "path": "locale.css",
@@ -308,7 +308,7 @@
     },
     {
       "path": "writing-result.js",
-      "sha256": "d46010c6f7131683ba292773a6ac1053c85f06bb341b1a9e7f3b38a5df3cf9b5"
+      "sha256": "268e2d3168348f4042817e85368b747569698d1aea362f659975e27a45ede9a9"
     },
     {
       "path": "writing.css",
