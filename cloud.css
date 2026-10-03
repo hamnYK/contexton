@@ -34,3 +34,9 @@ body[data-canvas-locked="true"] .canvas-toolbar{opacity:.45}
 body[data-canvas-locked="true"] .canvas-bottom-note{visibility:hidden}
 
 #cloud-close:disabled{opacity:.45;cursor:not-allowed}
+
+.admin-list{display:grid;gap:16px;margin:20px 0}.admin-card{padding:20px;border:1px solid var(--border);border-radius:6px;overflow-wrap:anywhere}.admin-actions,.admin-pagination{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:16px}.admin-id{display:block;color:var(--muted)}.account-tabs{flex-wrap:wrap}.admin-pane select{margin-bottom:16px}
+
+#cloud-dialog .admin-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:720px;margin:16px auto 0}#cloud-dialog .admin-toolbar button{margin:0;min-height:44px}
+
+.cloud-account-summary{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:20px;border:1px solid var(--border);border-radius:6px;background:var(--surface)}.cloud-account-identity{flex:1;min-width:0}.cloud-account-label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}#cloud-dialog #cloud-account{margin:0;overflow-wrap:anywhere;font-weight:600}#cloud-dialog #cloud-signout{flex:none;min-height:44px;padding:10px 18px;margin:0;font-weight:600}

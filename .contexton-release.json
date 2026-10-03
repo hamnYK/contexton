@@ -1,10 +1,14 @@
 {
-  "id": "2026-10-02T19-05-47-340Z-fdcecc",
+  "id": "2026-10-03T02-00-18-989Z-3ec6c7",
   "obfuscator": "5.8.1",
   "files": [
     {
       "path": ".nojekyll",
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "admin.js",
+      "sha256": "ecf2c7dfe9e6564434b764d453d78cebada5a0d57c574f35c802ffb5ea1fb6db"
     },
     {
       "path": "ai-client.js",
@@ -20,7 +24,7 @@
     },
     {
       "path": "canvas-library.js",
-      "sha256": "bd41cc919b6fb08d4c7a93d34e616528bde7264f9542cb15b59228172bd89126"
+      "sha256": "72503cde250c690b4d558b8f1b37f86002a79f060319f8427c548d5a07ee065c"
     },
     {
       "path": "canvas-popover.js",
@@ -40,11 +44,11 @@
     },
     {
       "path": "cloud.css",
-      "sha256": "4527c7137741da78319fdbfb6d604bc8b7e2a3ed05a1aec822acc1963f866df0"
+      "sha256": "4b8c2c38b3ed2bb024b45b5be1c8a1b831957d8f109b11cec35cffff8fff0f69"
     },
     {
       "path": "cloud.js",
-      "sha256": "ad93979e8fabc32c641e92a2e015766e2fa36847f07e41a3371f54d20af21433"
+      "sha256": "b63dd7be030e8fc8cf249e3ce5f020879afdd1a6c19e26633d6e7de546d86f74"
     },
     {
       "path": "collab-model.js",
@@ -60,7 +64,15 @@
     },
     {
       "path": "collab.js",
-      "sha256": "f77c9f5797037095caffd1e9e7b6edf36d3b1ece78096b232a88843db476a635"
+      "sha256": "9c121255c191a56ff7228ab79b024d1c3ca2435047f91fb7a12f87633907dfb1"
+    },
+    {
+      "path": "design-access.css",
+      "sha256": "07a7cfa575dabb6af32d4c3f57944c07a560e791f35348d9fef7a189cbaa32e9"
+    },
+    {
+      "path": "design-access.js",
+      "sha256": "ba312eaeee7ecc5fe7598e2795a77b50d9feab080c9ea7a160d40081f768e130"
     },
     {
       "path": "design-reference/assets/fonts/Pretendard-LICENSE.txt",
@@ -124,7 +136,7 @@
     },
     {
       "path": "design-system-view.html",
-      "sha256": "bfffa2d04751cbfdc9220eb97f90aa01aacd52399a413cefc8cd4351ff2b5639"
+      "sha256": "1eefbcaa4e58ac97e2199b518c414df10f247d5b034d29561a145e9fd132f7ec"
     },
     {
       "path": "design-system.js",
@@ -135,8 +147,16 @@
       "sha256": "7b0759a818255dcf978d0faaa358d4412a917898b03ce6f6d6bb3be89757cb3a"
     },
     {
+      "path": "donation.css",
+      "sha256": "70345ee4b0b3c0e2ec85af35567136cc1328cce24b8e60962184808c975f14f3"
+    },
+    {
+      "path": "donation.js",
+      "sha256": "115248326deaba8d8d1032ea0072c8cd8cc5fadeb9addc3419404390679a7202"
+    },
+    {
       "path": "guide-manual.html",
-      "sha256": "99f72ba576ba24f981aa6068ad3322d27f2e885a0304852b2aa2d29d1ca90fbe"
+      "sha256": "9090d93c525affe6b26ef2b4a50a7b44b35618794c776face784a92cf0405015"
     },
     {
       "path": "icons.css",
@@ -144,11 +164,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "4596c6018431f8d500e65c06077e3e6fb1fb2b4182ceaf5521ae8fbda6ef6647"
+      "sha256": "0da5a641ce51fe64138a28b37f85751b2d5c1d7b476d6fa3a4667a33c5242b43"
     },
     {
       "path": "interface.css",
-      "sha256": "f86d4c96e5a749b7d9cb66e30628547157614bc8661742304ad9982317aa51e6"
+      "sha256": "09d9961f96ee12d6d16c06d434f163059b806e34839fb24df84c30ba742e5a6d"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -164,7 +184,7 @@
     },
     {
       "path": "model.js",
-      "sha256": "e20e51bd61bd46cfdd52796ea824b34644e0137f6fcf2e03585b4338a687febb"
+      "sha256": "ef7c508483fd8d43e526ad43aaa49718011c01f1a4d3d6b6ebda71e6c99c96dc"
     },
     {
       "path": "ontology/shapes.ttl",
@@ -196,7 +216,7 @@
     },
     {
       "path": "ontology-view.js",
-      "sha256": "b520ec00a252b7ab0d25e65feee656fdf51bbec68ea0952294f5ac8155c146bf"
+      "sha256": "9fc79069b1337d4eca30086dfa1ef176775ad0af8c2e0eeffe92ea3aa1f54284"
     },
     {
       "path": "relation-editor.js",
@@ -204,7 +224,7 @@
     },
     {
       "path": "relationships.js",
-      "sha256": "e8ab949883e7fc0e1e410221950dbc8a2457c2d4d11de17107aa282ae36a2749"
+      "sha256": "2b6ef5f80f21347c82073ee0c97f897122a970bf6bca0fba09afea33a6d9ed8d"
     },
     {
       "path": "state.js",
@@ -240,7 +260,7 @@
     },
     {
       "path": "workspace.js",
-      "sha256": "ee948a1ca12ac03375299069dbb6cdd6f9b6d1bd3d3b3e2d94a6dd1ceb6dcc92"
+      "sha256": "3a0ab6394f816ccf9b5c0841fa73d147b3a115a228e39fefcb01fa99fdb80944"
     },
     {
       "path": "writing-ai.js",
