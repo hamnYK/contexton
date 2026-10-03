@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T05-07-05-727Z-b7f281",
+  "id": "2026-10-03T05-30-14-692Z-717a18",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "collab-model.js",
-      "sha256": "ae55265e4e5962477d3895efd61ab3f95b40df559b0eaa0da5f925c2e6779a79"
+      "sha256": "a683c0b5973c4d548ecf23432f84bb5ad973e4536d1c5e35bf3a8957d25b74af"
     },
     {
       "path": "collab-store.js",
@@ -300,11 +300,11 @@
     },
     {
       "path": "writing-ai.js",
-      "sha256": "5a2458fb0fd40a70d223e97daf02a3977963ffe6b0e48fa3feeaa0c8eab4c71b"
+      "sha256": "16df9ffa6fc97fcc998edecb34cb13ac4715f338b663c909879f8556a911682a"
     },
     {
       "path": "writing-guide.js",
-      "sha256": "7a97eb244af68f3528da4e38f1cb8f1e6083ea394b81a30201022d878f103364"
+      "sha256": "47ce5d9b65ca557da21afb3a4973a74492862e974ff8458fc136ae9fe0494f39"
     },
     {
       "path": "writing.css",
