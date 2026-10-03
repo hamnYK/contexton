@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T05-54-36-510Z-09716a",
+  "id": "2026-10-03T06-08-40-978Z-32ce58",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "c5c8f1a31bd43d0b648d6f6cfcba95f03858a4596f1daf900d4978c39f5983e1"
+      "sha256": "dd84c7d38ef3dfcd9dcb4c0696c1b42c43f51be09d6fe744fc3f0b33724200ee"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "f9429513d2dc76ed014616bdbec3d3c2b0812f41430d8a6042466baa9f676a0d"
+      "sha256": "9f0246cc13ca626f07e5e984c397e9a43ea8942f3d3b66e9da47d9b193b795f5"
     },
     {
       "path": "design-system.js",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "e7312fab5f4e98705dc91d7e43af5cdca7ae5714308f93f276046cbed8f2d673"
+      "sha256": "b42e91a3fdde4c4f33db5d465992c9602ed87374fc5ca4c5ad22f7b76b7f7d05"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "3701cfcfea0e884e9784ac876d8bd6b43f39e32e960f4811459e80168ff46944"
+      "sha256": "f0be8c8ca840ebaebdab1da05f09135772360443ffccfb91fbc280f71c1dc4a8"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "f7d81115f6c280329a980cfafb7869855a95d30c1b60d07dc209846ed719136b"
+      "sha256": "c6819f8ded0a60bf76a8ebe1b289e7180b15dc4ba58a74e0bcbcab8f9309d6fe"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "36b4fb2297d70d8ba3dbb8d1e0cd433943975386ccb124cb7fcb51814d769728"
+      "sha256": "0ef54ced8641d850038aa2ed457f2eb572171dd5b690348fb9e1277767ef7cb6"
     },
     {
       "path": "locale.css",
@@ -244,7 +244,7 @@
     },
     {
       "path": "relation-editor.js",
-      "sha256": "88a003a9e7833f1625c272a08fab1eae7d3a5178e99f1edd1fe84aee452e5ccb"
+      "sha256": "cd28fb0d3ea1ddcb83d39212bff26dea9adfa9ab9c2439e17255e802bbf18f42"
     },
     {
       "path": "relationships.js",
@@ -296,7 +296,7 @@
     },
     {
       "path": "workspace.js",
-      "sha256": "79c631f577910beaa71f8af8b635828deb26b55290fa080fb629c70692ae7fb6"
+      "sha256": "f9be174e9e4b0aba99f83e02c7761eccb43db3cfc8eb78a921d269ea8eb047c3"
     },
     {
       "path": "writing-ai.js",
