@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T02-57-12-576Z-7487b5",
+  "id": "2026-10-03T03-23-34-285Z-f312a6",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "path": "canvas-library.js",
-      "sha256": "72503cde250c690b4d558b8f1b37f86002a79f060319f8427c548d5a07ee065c"
+      "sha256": "b396e6e400946add6178d947e0d7664fe393583f154ffaa8b5e92aac9f755b50"
     },
     {
       "path": "canvas-popover.js",
