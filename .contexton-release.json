@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T05-40-55-418Z-cf6e56",
+  "id": "2026-10-03T05-54-36-510Z-09716a",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "ff026175539e04d4989a3d698a81326dd07dc3c77801613cd2c540449f2df759"
+      "sha256": "c5c8f1a31bd43d0b648d6f6cfcba95f03858a4596f1daf900d4978c39f5983e1"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "d80308f3e452668088244dc0c728836267a1bf5e5aeaf037db162972af9951a7"
+      "sha256": "f9429513d2dc76ed014616bdbec3d3c2b0812f41430d8a6042466baa9f676a0d"
     },
     {
       "path": "design-system.js",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "4eb583d69cd90e84c70bccb337605ba46fdd0b254db4ce3bbcd06291bde0824b"
+      "sha256": "e7312fab5f4e98705dc91d7e43af5cdca7ae5714308f93f276046cbed8f2d673"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "00b21fbe9cd6a1a26e6795b2a864724b841d1fda5a0f5ca2388782f52217ec08"
+      "sha256": "3701cfcfea0e884e9784ac876d8bd6b43f39e32e960f4811459e80168ff46944"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "ac871007bc2ffd13471d21fe86a47140f5200cc6f47523e8cf89ea46670e6c98"
+      "sha256": "f7d81115f6c280329a980cfafb7869855a95d30c1b60d07dc209846ed719136b"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "0fc63489c820bf7ccaf157a1cbc9b31722cbcbb80725fe4bd956da39ba7dd432"
+      "sha256": "36b4fb2297d70d8ba3dbb8d1e0cd433943975386ccb124cb7fcb51814d769728"
     },
     {
       "path": "locale.css",
@@ -304,7 +304,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "47ce5d9b65ca557da21afb3a4973a74492862e974ff8458fc136ae9fe0494f39"
+      "sha256": "e431ac65ae53b905bfb38f7842c05de9692c6d3a7029ccc80a489b34bfd2c00a"
     },
     {
       "path": "writing.css",
