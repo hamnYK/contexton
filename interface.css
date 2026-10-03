@@ -120,3 +120,5 @@ body[data-page=guide] .sidebar{background:var(--color-surface)}.doc-note,.viewer
 #relationship-panel .proposal-card.active::after{content:'✓'}
 #relationship-panel .proposal-card:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 @media(max-width:480px){#relationship-panel .proposal-card{gap:8px;padding:10px 12px}#relationship-panel .proposal-card .pill{max-width:120px}}
+
+.interpretation-manage{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}#delete-interpretation{color:#a3372a}#edit-interpretation-form:not([hidden]){display:grid;gap:10px;padding:16px;border:1px solid var(--border);border-radius:6px;background:var(--surface);margin-bottom:20px}#edit-interpretation-form label{margin:0}#edit-interpretation-form select,#edit-interpretation-form textarea{width:100%;min-width:0;font:inherit}#edit-interpretation-form .interpretation-manage{margin:6px 0 0}

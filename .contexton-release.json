@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T03-54-15-157Z-d77fdc",
+  "id": "2026-10-03T04-08-37-446Z-cd0b8c",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "path": "collab.js",
-      "sha256": "9c121255c191a56ff7228ab79b024d1c3ca2435047f91fb7a12f87633907dfb1"
+      "sha256": "ffc7e23bc0c33157033420220c2eb4e16ebde0b6c008ea49c91429a940ddc3e1"
     },
     {
       "path": "design-access.css",
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "bc72f9a06984c5265645b1b42ebc25935ce13f276961bb6e5fa9c4083104e711"
+      "sha256": "17d924bc36045a18b6bdaf003c4118d69a159f9124565b5e2f69e02a071549b8"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "a3a406e17d40381e10810fd38b4ae60acddb532249e363eea63991d948a1c501"
+      "sha256": "78d237672ca31116b56ae2ed7375636aad1ca56019b35e48610e9ed7e42e6f98"
     },
     {
       "path": "design-system.js",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "ef970d6d1bcd556a6fe63478581204baa867c434b6c75b5fc799662aa79760b1"
+      "sha256": "e84cd1bfb4441124402b234afcf93c8f3047d2334e98d4ec4b368649a7661a42"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "0c5cbbbd085852c0f4ae003dda6e4b5925123a403ddc2b08531ece1819bae7fa"
+      "sha256": "51aa2343122b181f18fa865826743fcdaafcd8fec8846498611260eb2e66857b"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "39aa64a1fd5e24debdc32ecbb0d4492f474858c25ec850f9bfe2ef0535285b22"
+      "sha256": "5044100772f220ace88732c0e0f12b07afbd9b2e611f6c89c934cd8b964f6936"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "98d8dea025542083af7f3f6c062e63a4f8c1f613ce7229d14229cd0aeb477305"
+      "sha256": "886788369302960075a0b99671be22109899803a125744ba5125ac0694c8fe9b"
     },
     {
       "path": "locale.css",
@@ -244,11 +244,11 @@
     },
     {
       "path": "relation-editor.js",
-      "sha256": "cf56e17114c97e092d6787a3261d771f295c60695455277b6d54195ea4144075"
+      "sha256": "a597e025273ef32dbff23dbfb5d5951b4123dd4f00a7bb20551314b7fe45178f"
     },
     {
       "path": "relationships.js",
-      "sha256": "33024bac99361888f9193be49fb60c9d8aa473baf1e8199aa70f1520bec4a2df"
+      "sha256": "f6008021340b3901df69268f4a23e6d22728fdb26f29d430de0a54eabf4fcd6b"
     },
     {
       "path": "robots.txt",
