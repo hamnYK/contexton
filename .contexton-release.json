@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T13-01-38-555Z-f9eeaa",
+  "id": "2026-10-03T13-31-47-572Z-ee0323",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -180,7 +180,7 @@
     },
     {
       "path": "homepage-link.js",
-      "sha256": "94339cd1d876bb5a6c596680a5e0f239614f076439a9372f259b079ca544aa59"
+      "sha256": "3021bcce4ac9379cf81bb992ac672f128c5cfa515b2f470a89ca5f65807bc222"
     },
     {
       "path": "icons.css",
