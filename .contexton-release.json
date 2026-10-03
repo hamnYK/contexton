@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T08-09-05-050Z-b43b26",
+  "id": "2026-10-03T09-07-09-876Z-e466b1",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -48,7 +48,7 @@
     },
     {
       "path": "cloud.js",
-      "sha256": "b63dd7be030e8fc8cf249e3ce5f020879afdd1a6c19e26633d6e7de546d86f74"
+      "sha256": "daa9a9675f6f43a451f623e804e888725447519cd2af8db141789aa04378d7be"
     },
     {
       "path": "collab-model.js",
@@ -160,7 +160,7 @@
     },
     {
       "path": "en.html",
-      "sha256": "d0428b935658930fdc8e778c1c01f9d0e681e560a1d66dd6cb3716156234230f"
+      "sha256": "f828582fb690403865dbe7ce9d658d6bbc35d88658d1b868471790ce3311320b"
     },
     {
       "path": "guide-manual-en.html",
@@ -171,16 +171,20 @@
       "sha256": "fd9af33d46fac50c7a5036d45760084b83bd671769c8ab5abe9485c62d366916"
     },
     {
+      "path": "homepage-link.js",
+      "sha256": "0ee77100c40a198122f068c628da136c764e6a4a3c4412de173ac7af9abe4da1"
+    },
+    {
       "path": "icons.css",
       "sha256": "79e54c2c448d4086585d692401519cef860fd5767ee87d4b5d48cfd9e49ae926"
     },
     {
       "path": "index.html",
-      "sha256": "0252eefcbe56defc7e8a82d9f4fa848c32edb0752a61a4f00c2a9e481c661343"
+      "sha256": "97fcb58dc153fc9b29277f4572eb85b4ae9e45b723b28eff127171bdd20954c3"
     },
     {
       "path": "interface.css",
-      "sha256": "96012cfd669cd84a3bb9ac5c9196f5c788fed418e37fa9286305dfe5c614c98c"
+      "sha256": "ac1eefac3d568297c2ed1d6e068e785d475b1564cbd2c73233b4a010c4131690"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +200,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "84c49333b3fc34df1dfd8cb3596ce7f7026ced6bb1050ad41e46caabc58c93c6"
+      "sha256": "45a7a30f050aee82d9b68c3f13df76b91bac18b1256cff07f9c1e5bd25d0f80d"
     },
     {
       "path": "locale.css",

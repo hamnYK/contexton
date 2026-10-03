@@ -162,3 +162,9 @@ body[data-page="canvas"] #canvas-writing-scope{display:none}
 @media(max-width:600px){#ai-result-text{padding:18px;font-size:15px}#ai-result-text h2{font-size:1.3em}}
 
 .relation-help-link{display:inline-block;margin:12px 0;text-underline-offset:3px}
+
+/* Matches the homepage's filled floating action, above the canvas status bar. */
+#homepage-link{position:fixed;left:24px;bottom:calc(var(--homepage-footer-height,40px) + 24px + env(safe-area-inset-bottom,0px));z-index:6;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:10px 18px;border:1px solid var(--color-action);border-radius:var(--radius-pill);background:var(--color-action);color:var(--color-surface);font-family:var(--font-sans);font-size:14px;font-weight:600;line-height:1.4;text-align:center;text-decoration:none;box-shadow:var(--shadow-floating);touch-action:manipulation}
+#homepage-link:hover{background:var(--color-action-hover)}
+#homepage-link:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+@media(max-width:760px){#homepage-link{left:16px;bottom:calc(var(--homepage-footer-height,40px) + 16px + env(safe-area-inset-bottom,0px))}}
