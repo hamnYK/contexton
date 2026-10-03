@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T02-46-52-815Z-0dd2de",
+  "id": "2026-10-03T02-52-16-474Z-c6cd7d",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -156,7 +156,7 @@
     },
     {
       "path": "donation.js",
-      "sha256": "115248326deaba8d8d1032ea0072c8cd8cc5fadeb9addc3419404390679a7202"
+      "sha256": "66a3dc4d9de5e6f34ac140dcd7260b61c181fa47ebe8dbc873bd5001403b8af6"
     },
     {
       "path": "en.html",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "2f800574dcef4f222c3b2fa926b2f37fff4a810d7140b463e6e67b5cc3e619a8"
+      "sha256": "80e841b6e35f9a15e69cb703728032d52727dc3ee592b55600fcd8a73e9cc799"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "ec4bcd85bf2978df9bca3645d57281893369daec79c0c742d6cc3e9b8c13798f"
+      "sha256": "40a000b0cf17f1dd8ac064e96ac063125a59cbc7f16fc2e38a64b941e241d1dd"
     },
     {
       "path": "icons.css",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "8e806bee0642a9f3abbf95ee484f31576180b0c98fbd8845e0c8548b89b23f71"
+      "sha256": "41cf7ab09c21fd5a2e82080b4c0fe6fb00e5965f883e49260502b967c9e8ca7e"
     },
     {
       "path": "locale.css",
