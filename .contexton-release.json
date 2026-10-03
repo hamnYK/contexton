@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T02-00-18-989Z-3ec6c7",
+  "id": "2026-10-03T02-35-07-072Z-4e18ac",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "path": "ai-client.js",
-      "sha256": "0269a27320dc98ec19f9216d1be76bdf344a1c8fac3f265ffe7e6403799a5285"
+      "sha256": "7254d005d7c68343cbdefeb6d2c6213d1288a8904d8ad056323ca12d4da74451"
     },
     {
       "path": "app.js",
@@ -135,8 +135,12 @@
       "sha256": "e6954869bd8e42ed7f15d171c7819393312025c642590ea621dd5374c9d15017"
     },
     {
+      "path": "design-system-view-en.html",
+      "sha256": "0544d3ffa9f0534f8e62dd9309b6c85ddece30319970762aa25a296203ab3656"
+    },
+    {
       "path": "design-system-view.html",
-      "sha256": "1eefbcaa4e58ac97e2199b518c414df10f247d5b034d29561a145e9fd132f7ec"
+      "sha256": "a3726f15ed95f8692a76e218aa2133752f5b0d104ca52e6a8c72f461019538f4"
     },
     {
       "path": "design-system.js",
@@ -155,8 +159,16 @@
       "sha256": "115248326deaba8d8d1032ea0072c8cd8cc5fadeb9addc3419404390679a7202"
     },
     {
+      "path": "en.html",
+      "sha256": "286453bc0bfd7e9655c16d96d5b75ac457d2f393f5b19f78f01c69903df5c9bc"
+    },
+    {
+      "path": "guide-manual-en.html",
+      "sha256": "2f800574dcef4f222c3b2fa926b2f37fff4a810d7140b463e6e67b5cc3e619a8"
+    },
+    {
       "path": "guide-manual.html",
-      "sha256": "9090d93c525affe6b26ef2b4a50a7b44b35618794c776face784a92cf0405015"
+      "sha256": "ec4bcd85bf2978df9bca3645d57281893369daec79c0c742d6cc3e9b8c13798f"
     },
     {
       "path": "icons.css",
@@ -164,7 +176,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "0da5a641ce51fe64138a28b37f85751b2d5c1d7b476d6fa3a4667a33c5242b43"
+      "sha256": "856b244beb1449822f73df5d3e55d14e7914be4053d44c7a0b2ab0db46f7c1dc"
     },
     {
       "path": "interface.css",
@@ -181,6 +193,18 @@
     {
       "path": "lib/vis-network.min.js",
       "sha256": "fc674cfa6cceb27a3b40ff4ea75c204a2d8570fb39b9a627127cf7039e141ad4"
+    },
+    {
+      "path": "locale-data.js",
+      "sha256": "8e806bee0642a9f3abbf95ee484f31576180b0c98fbd8845e0c8548b89b23f71"
+    },
+    {
+      "path": "locale.css",
+      "sha256": "0745400916c09bdaeaed2b5263efb1ade7cd1a5542140a0f372934f85f7bc7ab"
+    },
+    {
+      "path": "locale.js",
+      "sha256": "799e624da469c49ac133f3a69de3be80fb345c4f712c07620b14547645a28888"
     },
     {
       "path": "model.js",
@@ -208,7 +232,7 @@
     },
     {
       "path": "ontology-network.js",
-      "sha256": "fa40ca329cf9615ebc2bdca5dbb59d64802da791c296fe697612d42618a9909e"
+      "sha256": "7b496380679bdd0063dff2a00c95fb3d54761e3df806d70e6b86e6981f540d3d"
     },
     {
       "path": "ontology-view.css",
@@ -216,7 +240,7 @@
     },
     {
       "path": "ontology-view.js",
-      "sha256": "9fc79069b1337d4eca30086dfa1ef176775ad0af8c2e0eeffe92ea3aa1f54284"
+      "sha256": "82443f02f648640f6b3d463e84ef6479160fe04fe7e7c241ae81f2f4f7afe4c5"
     },
     {
       "path": "relation-editor.js",
@@ -224,7 +248,19 @@
     },
     {
       "path": "relationships.js",
-      "sha256": "2b6ef5f80f21347c82073ee0c97f897122a970bf6bca0fba09afea33a6d9ed8d"
+      "sha256": "33024bac99361888f9193be49fb60c9d8aa473baf1e8199aa70f1520bec4a2df"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "d1efdac67943589ce3a59bd0526708033dcc1a14a82a38189acdef7c7019e22d"
+    },
+    {
+      "path": "share-card.png",
+      "sha256": "414bb10d101f3e92054be5a1485019e344053c91b270ebee1bf7cbb049e98610"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "a19633df7611585ecd6209e5a5a727d420eaf69f34b5603b1d30171f069c1849"
     },
     {
       "path": "state.js",
@@ -260,7 +296,7 @@
     },
     {
       "path": "workspace.js",
-      "sha256": "3a0ab6394f816ccf9b5c0841fa73d147b3a115a228e39fefcb01fa99fdb80944"
+      "sha256": "79c631f577910beaa71f8af8b635828deb26b55290fa080fb629c70692ae7fb6"
     },
     {
       "path": "writing-ai.js",
@@ -268,7 +304,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "29b24fb4b702f28559cbc5d824cc6a0a5efddd060f0afe0983d16635d741a2c1"
+      "sha256": "7a97eb244af68f3528da4e38f1cb8f1e6083ea394b81a30201022d878f103364"
     },
     {
       "path": "writing.css",
@@ -276,7 +312,7 @@
     },
     {
       "path": "writing.js",
-      "sha256": "f233514986588f9a6a0ed740f4a0b6f5815fc1409f894c974af02e213788c944"
+      "sha256": "5c46721c08ee9d90d5fb77223bec745505c174b0b14ae9f16f0d0b46c1a37fdb"
     }
   ]
 }
