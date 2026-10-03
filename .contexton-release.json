@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T04-08-37-446Z-cd0b8c",
+  "id": "2026-10-03T04-26-33-792Z-145c1b",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,15 +136,15 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "17d924bc36045a18b6bdaf003c4118d69a159f9124565b5e2f69e02a071549b8"
+      "sha256": "8b561cb9891fee598fc89b86a2b85562460aaf90b68d3bb2605759c3c4a395a1"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "78d237672ca31116b56ae2ed7375636aad1ca56019b35e48610e9ed7e42e6f98"
+      "sha256": "77bf1d5b3fb62fb64320d1bbcf85ca2d2411309f58596cc265b57c930ada9883"
     },
     {
       "path": "design-system.js",
-      "sha256": "85e73b4d4d9d1a55674384c354d80fe0f1c1c28fc4b574288d800802944ff67b"
+      "sha256": "2155ed84bc7ac2c3a067ae964c5a0fec74819e181acce0a80714d5c037825e29"
     },
     {
       "path": "documentation.css",
@@ -164,11 +164,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "e84cd1bfb4441124402b234afcf93c8f3047d2334e98d4ec4b368649a7661a42"
+      "sha256": "e8a447be9015ae8fe7f2a9af401f717daf2d174512d0c81a8e3b425eb954a89e"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "51aa2343122b181f18fa865826743fcdaafcd8fec8846498611260eb2e66857b"
+      "sha256": "c8fa7b00b498432c23cbd42ae738dbcfd1bbe3849cb42fe76d7b1913455f88bc"
     },
     {
       "path": "icons.css",
@@ -180,7 +180,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "5044100772f220ace88732c0e0f12b07afbd9b2e611f6c89c934cd8b964f6936"
+      "sha256": "08e30538e9961659161de666bf678638a49623ef87f845d4aa254e72b19112a4"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -196,7 +196,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "886788369302960075a0b99671be22109899803a125744ba5125ac0694c8fe9b"
+      "sha256": "c6247ea5b1676b690b356efae4879e5261bc9ad38c1650ded6e09a30b14b4d0d"
     },
     {
       "path": "locale.css",
@@ -276,7 +276,7 @@
     },
     {
       "path": "theme.css",
-      "sha256": "9b8104c4db5a0e942c7d1c24cab882a7965993de43a3c35d28c079b43a7d614b"
+      "sha256": "81516de75c281bf365fcafc03880c86059690f9a7fba85f1667dc6fb29f9bd81"
     },
     {
       "path": "typography.css",
