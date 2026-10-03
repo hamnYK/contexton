@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T11-41-43-217Z-274e55",
+  "id": "2026-10-03T12-31-07-079Z-2218f2",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,15 +136,23 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "6e5fbc9684dcfba28437f98dfef7cdc147d6e8fb9ba036860ac5cbf05f8eaad0"
+      "sha256": "4e37894341947d57e3c6f7a5a45364735357bd51c91f45d8efd74334a5426454"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "766af9c819c0526ee11849c034f754aa42d2cbdae970e8e9634f5faf79739f27"
+      "sha256": "090903ccecb59529a4ccf445ec5c29b5b9cdf5b6ed7d8a8a435c5f4a8fca3c8f"
     },
     {
       "path": "design-system.js",
-      "sha256": "2155ed84bc7ac2c3a067ae964c5a0fec74819e181acce0a80714d5c037825e29"
+      "sha256": "7b3881befd767908a1b8ce2120621bc13a6b485c0f198b5b76e2a250646f413a"
+    },
+    {
+      "path": "documentation-shell.css",
+      "sha256": "0dcfeaeb4e8265d33cf92765ec46f5c3526082df88edeaee4cc5de0f59306170"
+    },
+    {
+      "path": "documentation-shell.js",
+      "sha256": "e1803779e4fd15b20be639331291ac861fbb03bf7de0316c4d49cb196335ad7e"
     },
     {
       "path": "documentation.css",
@@ -160,15 +168,15 @@
     },
     {
       "path": "en.html",
-      "sha256": "ad37454c2ae5fd86ef0e3fe0b160e2bd71c7b073db77d4777d63b744ce8776cf"
+      "sha256": "fba495830f969c59d93bed56836515d1792eb4715b98adc88203a38fdde29f36"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "07b360a8bafce5594a9293177b6c7601ab603519fe0987bf05eb4cfb64fc71d6"
+      "sha256": "9bc362586b1ce8e76cb7292ad1fc46852d89549767f558d4fda5bccbd430af98"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "84ade9eec6994b9854381672f06867c1960eb9777734fcc0c91fe596fac193b2"
+      "sha256": "9d408f6b776282b9b68866f0c33ece559b0c3e7fb31b3303efc08512ee642b6a"
     },
     {
       "path": "homepage-link.js",
@@ -180,15 +188,19 @@
     },
     {
       "path": "index.html",
-      "sha256": "4147606c4e2569e989bb86137de8638181cefca3fa3eedc65d5b818c86ef9183"
+      "sha256": "d12870f1f238ee2c80fa3c45a7d3a7ef3604f0e67af4b3b301f83860d00d2746"
     },
     {
       "path": "interface.css",
       "sha256": "ac1eefac3d568297c2ed1d6e068e785d475b1564cbd2c73233b4a010c4131690"
     },
     {
+      "path": "legal-modal.js",
+      "sha256": "cafe70d86d567b8e78c0c4d26407c9ef21e5484829fe262abe9840dcaa58ef49"
+    },
+    {
       "path": "legal.css",
-      "sha256": "e360726e6576038ec4fc89084fb48096406fc28c2c809d4e4a5c94065bff6faa"
+      "sha256": "7d3ecfec907f49b02f80d42214b127de5a96aa7063023685757765ceac9e13cd"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -252,7 +264,7 @@
     },
     {
       "path": "privacy_policy.html",
-      "sha256": "4d30ad68825024d4f4208c5ea0395527b17042d51fb2c06eb3ca6fe344aa7f11"
+      "sha256": "6949ca61b528a2c2146354120390bbfa7c6b2644bcf2b31ae4bd24c7ee3e5ce5"
     },
     {
       "path": "relation-editor.js",
@@ -288,7 +300,7 @@
     },
     {
       "path": "terms_of_service.html",
-      "sha256": "128f3f373b789a26e4880b1e1433366782a97e237d2eee8e33f74d64111dee06"
+      "sha256": "fecb6c3f7872ff647419f7a6d867de520e0fb7aa91da2925e7c8ee3d0dca2b73"
     },
     {
       "path": "theme.css",
@@ -300,7 +312,7 @@
     },
     {
       "path": "ui.js",
-      "sha256": "eec4daab694c83f681c1b8cfdba4980ce1a6e7012078166a798a66c1e02a1056"
+      "sha256": "29bb7f2cbfd3e06c10241a68ca39bd5949d34b70ab3b89a9780060d8d0571147"
     },
     {
       "path": "workspace-panels.js",
