@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T13-31-47-572Z-ee0323",
+  "id": "2026-10-03T14-18-10-590Z-tab-activation",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -180,7 +180,7 @@
     },
     {
       "path": "homepage-link.js",
-      "sha256": "3021bcce4ac9379cf81bb992ac672f128c5cfa515b2f470a89ca5f65807bc222"
+      "sha256": "71a1320de6f1b5db8ecf2a70974c6ea3bbde41e8d620c6b53adc246b02b8ff12"
     },
     {
       "path": "icons.css",
