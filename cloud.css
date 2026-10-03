@@ -9,7 +9,7 @@
 .cloud-body button:disabled{opacity:.5;cursor:not-allowed}
 .cloud-body p{overflow-wrap:anywhere}
 #cloud-status{white-space:pre-wrap;line-height:var(--type-body-line,22px);margin:var(--space-4,16px) 0 0}
-#cloud-status[data-error=true]{color:#953a32}
+#cloud-status[data-error=true]{color:var(--color-danger)}
 #cloud-member>section{border-top:1px solid var(--border);padding-top:var(--space-4,16px);margin-top:var(--space-6,24px)}
 #cloud-load-review{padding:var(--space-4,16px);border:1px solid var(--border);border-radius:8px;margin-top:var(--space-4,16px)}
 #cloud-dialog [hidden]{display:none!important}
@@ -40,3 +40,29 @@ body[data-canvas-locked="true"] .canvas-bottom-note{visibility:hidden}
 #cloud-dialog .admin-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:720px;margin:16px auto 0}#cloud-dialog .admin-toolbar button{margin:0;min-height:44px}
 
 .cloud-account-summary{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;padding:20px;border:1px solid var(--border);border-radius:6px;background:var(--surface)}.cloud-account-identity{flex:1;min-width:0}.cloud-account-label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}#cloud-dialog #cloud-account{margin:0;overflow-wrap:anywhere;font-weight:600}#cloud-dialog #cloud-signout{flex:none;min-height:44px;padding:10px 18px;margin:0;font-weight:600}
+
+/* Account controls use the same semantic tokens as the product and reference. */
+#cloud-dialog #cloud-auth .google-signin{display:flex;align-items:center;justify-content:center;width:100%;min-height:var(--control-height-prominent);margin:0;padding:var(--space-3) var(--space-4);border-radius:var(--radius-control);font-size:var(--font-size-ui);font-weight:var(--font-weight-semibold);line-height:var(--line-height-tight);white-space:normal}
+#cloud-dialog #cloud-auth .google-account-hint{font-size:var(--font-size-ui);line-height:var(--line-height-body);color:var(--muted);margin:var(--space-3) 0 var(--space-5)}
+#cloud-dialog #cloud-auth .google-signin-divider{display:flex;align-items:center;gap:var(--space-3);color:var(--muted);font-size:var(--font-size-sm);line-height:var(--line-height-body);margin:var(--space-6) 0;padding:0;border:0;text-align:center}
+#cloud-dialog .google-signin-divider::before,#cloud-dialog .google-signin-divider::after{content:'';flex:1;border-top:1px solid var(--border)}
+#cloud-dialog #cloud-delete-section{margin:var(--space-6) 0;border:1px solid var(--border);border-radius:var(--radius-card);padding:0;background:var(--surface)}
+#cloud-dialog #cloud-delete-section>summary{cursor:pointer;min-height:var(--control-height-touch);padding:var(--space-4) var(--space-5);font-size:var(--font-size-ui);line-height:var(--line-height-tight);font-weight:var(--font-weight-semibold);color:var(--ink)}
+#cloud-dialog #cloud-delete-section>summary:hover{background:var(--color-surface-subtle)}
+#cloud-dialog #cloud-delete-section[open]>summary{border-bottom:1px solid var(--border);margin-bottom:var(--space-5)}
+#cloud-dialog #cloud-delete-section> :not(summary){margin-left:var(--space-5);margin-right:var(--space-5)}
+#cloud-dialog #cloud-delete-section h3{font-family:var(--font-heading);font-size:var(--font-size-lead);font-weight:var(--font-weight-bold);line-height:var(--line-height-tight);margin-top:0;margin-bottom:var(--space-4)}
+#cloud-dialog #cloud-delete-section .account-delete-scope{padding-left:var(--space-5);font-size:var(--font-size-ui);line-height:var(--line-height-body);color:var(--ink)}
+#cloud-dialog #cloud-delete-section li{margin:var(--space-3) 0}
+#cloud-dialog #cloud-delete-section .account-delete-warning{padding:var(--space-3) var(--space-4);border-left:var(--space-1) solid var(--color-warning);background:var(--color-warning-surface);color:var(--color-warning);font-size:var(--font-size-ui);line-height:var(--line-height-body);margin-top:var(--space-5);margin-bottom:var(--space-5)}
+#cloud-dialog #cloud-delete-section label{font-size:var(--font-size-ui);font-weight:var(--font-weight-medium);line-height:var(--line-height-body)}
+#cloud-dialog #cloud-delete-section .account-delete-ack{display:flex;gap:var(--space-3);align-items:flex-start;min-height:var(--control-height-touch);padding:var(--space-2) 0;margin-top:var(--space-4);margin-bottom:var(--space-4);cursor:pointer}
+#cloud-dialog #cloud-delete-section .account-delete-ack input{width:var(--space-5);height:var(--space-5);min-height:var(--space-5);padding:0;flex:none;margin:var(--space-1) 0 0;accent-color:var(--focus)}
+#cloud-dialog #cloud-delete-section .cloud-actions{gap:var(--space-3);padding:var(--space-4) 0 var(--space-5);border-top:1px solid var(--border)}
+#cloud-dialog #cloud-delete-submit{color:var(--color-danger);border-color:var(--color-danger);background:var(--surface);font-weight:var(--font-weight-semibold);white-space:normal}
+#cloud-dialog #cloud-delete-submit:hover:not(:disabled){background:var(--color-danger-surface)}
+#cloud-dialog #cloud-delete-submit:disabled{opacity:.45;cursor:not-allowed}
+#cloud-dialog #cloud-status:not(:empty){padding:var(--space-3) var(--space-4);border-left:var(--space-1) solid var(--color-success);background:var(--color-success-surface);color:var(--color-success);font-size:var(--font-size-ui);line-height:var(--line-height-body)}
+#cloud-dialog #cloud-status[data-error=true]:not(:empty){border-color:var(--color-danger);background:var(--color-danger-surface);color:var(--color-danger)}
+#cloud-dialog #cloud-delete-section #cloud-status:not(:empty){margin-bottom:var(--space-5)}
+@media(max-width:480px){#cloud-dialog #cloud-delete-section .cloud-actions{flex-direction:column}#cloud-dialog #cloud-delete-section .cloud-actions button{width:100%}}

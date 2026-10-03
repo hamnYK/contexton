@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T09-07-09-876Z-e466b1",
+  "id": "2026-10-03T11-41-43-217Z-274e55",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -44,11 +44,11 @@
     },
     {
       "path": "cloud.css",
-      "sha256": "4b8c2c38b3ed2bb024b45b5be1c8a1b831957d8f109b11cec35cffff8fff0f69"
+      "sha256": "5ba9301262dab0b5243894bacdef847124f600f7da75a291bd9a11a2456f0c2b"
     },
     {
       "path": "cloud.js",
-      "sha256": "daa9a9675f6f43a451f623e804e888725447519cd2af8db141789aa04378d7be"
+      "sha256": "dc3337c7d2edd623b2b34e94cea32a28e82bc7ef082613b5a7065393559d2519"
     },
     {
       "path": "collab-model.js",
@@ -136,11 +136,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "a22f45bdc6e9b3022dd0dbd3dce3adcabbfdf5c241c52cab0ce1f8f36bdc292a"
+      "sha256": "6e5fbc9684dcfba28437f98dfef7cdc147d6e8fb9ba036860ac5cbf05f8eaad0"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "d15fa7532cce2c37c7c80bc4feec3a5081b43186c5d5d2869da0bbf376815883"
+      "sha256": "766af9c819c0526ee11849c034f754aa42d2cbdae970e8e9634f5faf79739f27"
     },
     {
       "path": "design-system.js",
@@ -160,19 +160,19 @@
     },
     {
       "path": "en.html",
-      "sha256": "f828582fb690403865dbe7ce9d658d6bbc35d88658d1b868471790ce3311320b"
+      "sha256": "ad37454c2ae5fd86ef0e3fe0b160e2bd71c7b073db77d4777d63b744ce8776cf"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "4190d8bcb0240e9a526d5a1bc8cf45bc0799ad2aa4204cb6eb0ed4addec912cd"
+      "sha256": "07b360a8bafce5594a9293177b6c7601ab603519fe0987bf05eb4cfb64fc71d6"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "fd9af33d46fac50c7a5036d45760084b83bd671769c8ab5abe9485c62d366916"
+      "sha256": "84ade9eec6994b9854381672f06867c1960eb9777734fcc0c91fe596fac193b2"
     },
     {
       "path": "homepage-link.js",
-      "sha256": "0ee77100c40a198122f068c628da136c764e6a4a3c4412de173ac7af9abe4da1"
+      "sha256": "94339cd1d876bb5a6c596680a5e0f239614f076439a9372f259b079ca544aa59"
     },
     {
       "path": "icons.css",
@@ -180,11 +180,15 @@
     },
     {
       "path": "index.html",
-      "sha256": "97fcb58dc153fc9b29277f4572eb85b4ae9e45b723b28eff127171bdd20954c3"
+      "sha256": "4147606c4e2569e989bb86137de8638181cefca3fa3eedc65d5b818c86ef9183"
     },
     {
       "path": "interface.css",
       "sha256": "ac1eefac3d568297c2ed1d6e068e785d475b1564cbd2c73233b4a010c4131690"
+    },
+    {
+      "path": "legal.css",
+      "sha256": "e360726e6576038ec4fc89084fb48096406fc28c2c809d4e4a5c94065bff6faa"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -200,7 +204,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "45a7a30f050aee82d9b68c3f13df76b91bac18b1256cff07f9c1e5bd25d0f80d"
+      "sha256": "438bab37e88a569b1f5e714bdadc232c0431355eb1a56cceb0237094f04622d8"
     },
     {
       "path": "locale.css",
@@ -247,6 +251,10 @@
       "sha256": "9ea1b574faf934ed0596ca3530e402e1375ff23646fd5daee21933fde20f79e1"
     },
     {
+      "path": "privacy_policy.html",
+      "sha256": "4d30ad68825024d4f4208c5ea0395527b17042d51fb2c06eb3ca6fe344aa7f11"
+    },
+    {
       "path": "relation-editor.js",
       "sha256": "90c99b5a04e00a724411c76e1827d14fe5a9d1c344fb15d53390ec11f50bb9b5"
     },
@@ -264,7 +272,7 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "a19633df7611585ecd6209e5a5a727d420eaf69f34b5603b1d30171f069c1849"
+      "sha256": "d492a806591d1a3e3f7dcf3c47aefe1f4d4e7c370486e6a7d82ee4831b708443"
     },
     {
       "path": "state.js",
@@ -277,6 +285,10 @@
     {
       "path": "supabase-config.js",
       "sha256": "7979829e8356cbb00d5f6ca2b0db91cf021c1bdc896a737b98cd3c5f88b4f48b"
+    },
+    {
+      "path": "terms_of_service.html",
+      "sha256": "128f3f373b789a26e4880b1e1433366782a97e237d2eee8e33f74d64111dee06"
     },
     {
       "path": "theme.css",
@@ -304,7 +316,7 @@
     },
     {
       "path": "writing-ai.js",
-      "sha256": "f2846166e1272a00c5e4476fb5b01b1c0e259936dcb337da8dfdd37c4d5c5db1"
+      "sha256": "9721860ae5c645203a9fea21e951fcd56244bb3f1a6474677ae3560e9d9288b1"
     },
     {
       "path": "writing-guide.js",
