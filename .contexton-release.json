@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-04T15-16-14-823Z-8e4d22",
+  "id": "2026-10-04T17-12-42-068Z-b8de81",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -296,7 +296,7 @@
     },
     {
       "path": "supabase-config.js",
-      "sha256": "7979829e8356cbb00d5f6ca2b0db91cf021c1bdc896a737b98cd3c5f88b4f48b"
+      "sha256": "4d1ff416580c5c103bb0e5bbc21a8915bb2614ac236b195f187befb5051c9de5"
     },
     {
       "path": "terms_of_service.html",
