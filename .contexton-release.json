@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-03T14-18-10-590Z-tab-activation",
+  "id": "2026-10-04T15-16-14-823Z-8e4d22",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -168,7 +168,7 @@
     },
     {
       "path": "en.html",
-      "sha256": "fba495830f969c59d93bed56836515d1792eb4715b98adc88203a38fdde29f36"
+      "sha256": "34f7e3bd195da00a48ce5d68ed99e110cec5532834bf56b203650e7fca1a45b9"
     },
     {
       "path": "guide-manual-en.html",
@@ -188,11 +188,11 @@
     },
     {
       "path": "index.html",
-      "sha256": "d12870f1f238ee2c80fa3c45a7d3a7ef3604f0e67af4b3b301f83860d00d2746"
+      "sha256": "4885edddd5cec3e8869de648ac1c96f0dcbdc992ec54c2735e566c142553b46f"
     },
     {
       "path": "interface.css",
-      "sha256": "ac1eefac3d568297c2ed1d6e068e785d475b1564cbd2c73233b4a010c4131690"
+      "sha256": "dddb36d56eeb623a7b0e5137913dc34664511a96a7cc44f6384f548f9ffe6b15"
     },
     {
       "path": "legal-modal.js",
