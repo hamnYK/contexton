@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-04T17-51-58-828Z-581197",
+  "id": "2026-10-04T21-30-05-310Z-302ce8",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -192,7 +192,7 @@
     },
     {
       "path": "interface.css",
-      "sha256": "dddb36d56eeb623a7b0e5137913dc34664511a96a7cc44f6384f548f9ffe6b15"
+      "sha256": "81301c4db046037f033efdebb727c5c22ab398833188192dd1e157c36331848e"
     },
     {
       "path": "legal-modal.js",
@@ -256,7 +256,7 @@
     },
     {
       "path": "ontology-view.css",
-      "sha256": "ef2373deb07b457ea93fde1a4683138c4a5c67bc8d066cdd91599d1e5c99a914"
+      "sha256": "772051b08fdd99de3bf182879218fe2a98a709f4648cec79e8b7a99a4b722d12"
     },
     {
       "path": "ontology-view.js",

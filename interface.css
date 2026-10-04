@@ -170,3 +170,18 @@ body[data-page="canvas"] #canvas-writing-scope{display:none}
 #homepage-link:hover{background:var(--color-action-hover)}
 #homepage-link:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
 @media(max-width:760px){#homepage-link{left:16px;bottom:calc(var(--homepage-footer-height,40px) + 16px + env(safe-area-inset-bottom,0px))}}
+
+/* 412 × 914 phone workspace: one scrollable action rail leaves room for the canvas. */
+@media(max-width:480px){
+ .canvas-app .canvas-header{padding:8px 12px;gap:4px;flex-shrink:0}
+ .canvas-app .canvas-header .brand{min-height:44px;display:flex;align-items:center}
+ .canvas-app .canvas-header-actions{flex-wrap:nowrap;overflow-x:auto;max-width:100%;min-width:0;padding-bottom:6px;overscroll-behavior-x:contain}
+ .canvas-app .canvas-header-actions>*{flex-shrink:0}.canvas-app .canvas-header-actions button,.canvas-app .canvas-header-actions .text-link{font-size:14px;min-height:44px;white-space:nowrap}
+ .canvas-app .canvas-toolbar{flex-shrink:0}.canvas-app .canvas-operation-guide{font-size:12px;line-height:1.5}
+ .canvas-app .canvas-statusbar{gap:4px 12px;flex-shrink:0;padding-bottom:calc(4px + env(safe-area-inset-bottom,0px))}
+ .canvas-app .canvas-statusbar a{display:inline-flex;align-items:center;min-height:44px;font-size:14px}
+ .canvas-app #canvas-inspector.writing-open{max-height:none;bottom:var(--homepage-footer-height,80px)}
+ .writing-tabs{flex-wrap:wrap}.writing-tabs .writing-tab{min-height:44px;white-space:normal;font-size:14px}
+ input:not([type=checkbox]):not([type=radio]),select,textarea{font-size:16px!important;max-width:100%}
+ #homepage-link{min-height:44px;padding:8px 12px;font-size:14px}
+}

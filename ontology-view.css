@@ -28,3 +28,13 @@
 #ontology-view .ontology-inspection>select{height:140px;background:var(--surface);color:var(--ink)}
 #ontology-item option{padding:6px 8px}
 @media(max-width:800px){#ontology-view .ontology-body{grid-template-rows:minmax(200px,1fr) 320px;flex-basis:540px;min-height:540px}}
+
+@media(max-width:480px){
+ #ontology-view{overflow-y:auto;overscroll-behavior:contain}
+ #ontology-view .ontology-header{position:sticky;top:0;z-index:3;flex-shrink:0}
+ #ontology-view .ontology-body{flex:0 0 auto;min-height:0;grid-template-rows:240px auto}
+ #ontology-view .ontology-inspection{min-height:320px;max-height:none;overflow:visible}
+ #ontology-view .ontology-controls{flex-wrap:wrap;flex-shrink:0}
+ #ontology-view .ontology-controls>*{max-width:100%;min-width:0}
+ #ontology-view select{font-size:16px;max-width:100%}
+}
