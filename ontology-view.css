@@ -21,3 +21,10 @@
 #ontology-view .ontology-inspection{min-width:0}
 #ontology-view .ontology-inspection>label{margin:0}
 @media(max-width:800px){#ontology-view .ontology-header{padding:12px 16px}#ontology-view .ontology-body{grid-template-columns:1fr;grid-template-rows:minmax(200px,1fr) 180px;flex-basis:400px;min-height:400px}#ontology-view footer{flex-shrink:0}}
+
+/* An inline listbox avoids OS dropdown windows across multiple monitors. */
+#ontology-view .ontology-inspection>select{box-sizing:border-box;min-width:0;width:calc(100% - 32px);flex-shrink:0;text-overflow:ellipsis}
+
+#ontology-view .ontology-inspection>select{height:140px;background:var(--surface);color:var(--ink)}
+#ontology-item option{padding:6px 8px}
+@media(max-width:800px){#ontology-view .ontology-body{grid-template-rows:minmax(200px,1fr) 320px;flex-basis:540px;min-height:540px}}

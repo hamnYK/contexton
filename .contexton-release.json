@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-04T17-12-42-068Z-b8de81",
+  "id": "2026-10-04T17-41-38-285Z-f06e56",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -256,11 +256,11 @@
     },
     {
       "path": "ontology-view.css",
-      "sha256": "fd11e089a51ecc28a1d0cfe11d9213d97c7d7bb4539db42d6769ccbc666bf35e"
+      "sha256": "ef2373deb07b457ea93fde1a4683138c4a5c67bc8d066cdd91599d1e5c99a914"
     },
     {
       "path": "ontology-view.js",
-      "sha256": "9ea1b574faf934ed0596ca3530e402e1375ff23646fd5daee21933fde20f79e1"
+      "sha256": "b53ee5e00b9b8c80d03c1eecd842fde9a9347bfdcce14d3c1ee702acce68c5be"
     },
     {
       "path": "privacy_policy.html",
