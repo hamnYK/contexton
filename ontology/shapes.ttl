@@ -62,3 +62,66 @@ c:AIWritingResultShape a sh:NodeShape ; sh:targetClass c:AIWritingResult ;
  sh:property [ sh:path prov:wasGeneratedBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:AIGeneration ] ;
  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ; sh:class c:GenerationInput ] ;
  sh:property [ sh:path c:partial ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] .
+
+# Optional on legacy guides; required fields are enforced when a plan is present.
+c:GuidePlanShape a sh:NodeShape ; sh:targetClass c:WritingGuide ;
+ sh:property [ sh:path c:formatProfile ; sh:maxCount 1 ; sh:class c:WritingProfile ] .
+c:WritingProfileShape a sh:NodeShape ; sh:targetClass c:WritingProfile ;
+ sh:class prov:Plan ;
+ sh:property [ sh:path c:profileVersion ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:pattern "^[0-9]+[.][0-9]+[.][0-9]+$" ] ;
+ sh:property [ sh:path c:profileKey ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+ sh:property [ sh:path skos:prefLabel ; sh:minCount 1 ; sh:datatype rdf:langString ; sh:uniqueLang true ] ;
+ sh:property [ sh:path c:profileDefinition ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype rdf:JSON ] ;
+ sh:property [ sh:path c:structure ; sh:minCount 1 ; sh:maxCount 1 ; sh:node c:RuleListShape ] ;
+ sh:property [ sh:path c:styleRules ; sh:minCount 1 ; sh:maxCount 1 ; sh:node c:RuleListShape ] ;
+ sh:property [ sh:path c:evidenceRules ; sh:minCount 1 ; sh:maxCount 1 ; sh:node c:RuleListShape ] ;
+ sh:property [ sh:path c:reviewRules ; sh:minCount 1 ; sh:maxCount 1 ; sh:node c:RuleListShape ] .
+c:PlanAssociationShape a sh:NodeShape ; sh:targetObjectsOf prov:qualifiedAssociation ;
+ sh:class prov:Association ;
+ sh:property [ sh:path prov:agent ; sh:minCount 1 ; sh:maxCount 1 ; sh:class prov:SoftwareAgent ] ;
+ sh:property [ sh:path prov:hadPlan ; sh:minCount 1 ; sh:maxCount 1 ; sh:class c:WritingProfile ] .
+# Validate list termination, cell cardinality and element kind independently.
+c:ListShape a sh:NodeShape ;
+ sh:targetObjectsOf c:members, c:narrativeOrder, c:paragraphs, c:structure, c:styleRules, c:evidenceRules, c:reviewRules ;
+ sh:nodeKind sh:BlankNodeOrIRI ;
+ sh:property [ sh:path [ sh:zeroOrMorePath rdf:rest ] ; sh:node c:ListCellShape ] ;
+ sh:sparql [ sh:message "An RDF list must terminate at rdf:nil and must not contain cycles." ; sh:select """
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ SELECT $this WHERE {
+  { FILTER NOT EXISTS { $this rdf:rest* rdf:nil } }
+  UNION { $this rdf:rest* ?cell . ?cell rdf:rest+ ?cell }
+ } """ ] .
+c:ListCellShape a sh:NodeShape ; sh:or (
+ [ sh:in (rdf:nil) ; sh:property [ sh:path rdf:first ; sh:maxCount 0 ] ; sh:property [ sh:path rdf:rest ; sh:maxCount 0 ] ]
+ [ sh:not [ sh:in (rdf:nil) ] ; sh:nodeKind sh:BlankNodeOrIRI ;
+   sh:property [ sh:path rdf:first ; sh:minCount 1 ; sh:maxCount 1 ] ;
+   sh:property [ sh:path rdf:rest ; sh:minCount 1 ; sh:maxCount 1 ; sh:nodeKind sh:BlankNodeOrIRI ] ]
+ ) .
+c:RuleListShape a sh:NodeShape ;
+ sh:property [ sh:path rdf:first ; sh:minCount 1 ] ;
+ sh:property [ sh:path ( [ sh:zeroOrMorePath rdf:rest ] rdf:first ) ; sh:datatype xsd:string ; sh:minLength 1 ] .
+c:ResourceListShape a sh:NodeShape ; sh:targetObjectsOf c:members, c:narrativeOrder, c:paragraphs ;
+ sh:property [ sh:path ( [ sh:zeroOrMorePath rdf:rest ] rdf:first ) ; sh:nodeKind sh:IRI ] .
+c:ParagraphListShape a sh:NodeShape ; sh:targetObjectsOf c:paragraphs ;
+ sh:property [ sh:path ( [ sh:zeroOrMorePath rdf:rest ] rdf:first ) ; sh:class c:Paragraph ] .
+c:SnapshotOrderShape a sh:NodeShape ; sh:targetClass c:SourceSnapshot ;
+ sh:property [ sh:path c:members ; sh:minCount 1 ; sh:maxCount 1 ] ;
+ sh:property [ sh:path c:narrativeOrder ; sh:maxCount 1 ] ;
+ sh:sparql [ sh:message "Narrative order must contain unique snapshot members." ; sh:select """
+ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+ PREFIX c: <urn:contexton:vocab:>
+ SELECT $this WHERE {
+  { $this c:narrativeOrder/rdf:rest*/rdf:first ?item . FILTER NOT EXISTS { $this c:members/rdf:rest*/rdf:first ?item } }
+  UNION { $this c:narrativeOrder/rdf:rest* ?a, ?b . ?a rdf:first ?item . ?b rdf:first ?item . FILTER(?a != ?b) }
+ } """ ] .
+
+c:GenerationPlanShape a sh:NodeShape ; sh:targetClass c:AIGeneration ;
+ sh:property [ sh:path prov:qualifiedAssociation ; sh:maxCount 1 ] ;
+ sh:sparql [ sh:message "The qualified agent and plan must match the generation agent and input guide." ; sh:select """
+ PREFIX prov: <http://www.w3.org/ns/prov#>
+ PREFIX c: <urn:contexton:vocab:>
+ SELECT $this WHERE {
+  $this prov:qualifiedAssociation ?association .
+  { ?association prov:agent ?agent . FILTER NOT EXISTS { $this prov:wasAssociatedWith ?agent } }
+  UNION { ?association prov:hadPlan ?plan . FILTER NOT EXISTS { $this prov:used/c:guide/c:formatProfile ?plan } }
+ } """ ] .

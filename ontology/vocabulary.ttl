@@ -1,10 +1,12 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix c: <urn:contexton:vocab:> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-c: a owl:Ontology ; rdfs:label "contexton narrative vocabulary 0.3" .
+c: a owl:Ontology ; rdfs:label "contexton narrative vocabulary" ; owl:versionInfo "0.4.0" ; owl:versionIRI <urn:contexton:vocab:version:0.4.0> .
 c:ImageNode a rdfs:Class ; rdfs:subClassOf prov:Entity .
 c:Link a rdfs:Class .
 c:RelationInterpretation a rdfs:Class ; rdfs:subClassOf prov:Entity ;
@@ -56,7 +58,7 @@ c:sourceNote a owl:DatatypeProperty .
 c:revision a owl:DatatypeProperty .
 c:image a owl:DatatypeProperty .
 c:genre a owl:DatatypeProperty .
-c:perspective a owl:DatatypeProperty .
+c:writingPerspective a owl:DatatypeProperty ; rdfs:range xsd:string .
 c:origin a owl:DatatypeProperty .
 c:note a owl:DatatypeProperty .
 c:provider a owl:DatatypeProperty .
@@ -76,3 +78,39 @@ c:source rdfs:comment "방향 연결의 시작 노드."@ko .
 c:target rdfs:comment "방향 연결의 도착 노드. 역방향 연결이 있다면 별개의 연결과 해석으로 읽는다."@ko .
 c:narrativeOrder rdfs:comment "자료를 글에 제시할 순서. 사건의 시간 순서나 인과관계를 의미하지 않는다."@ko .
 c:SourceSnapshot rdfs:comment "가이드를 저장한 시점의 자료 사본. 현재 캔버스가 변경되어도 이 요청은 저장 당시의 네트워크를 근거로 한다. 단절된 자료, 해석 없는 연결, 순환 연결도 그대로 보존하며 누락된 의미를 발명하지 않는다."@ko .
+
+c:reaction rdfs:range xsd:string .
+c:materialRole rdfs:range xsd:string .
+c:provenanceNote rdfs:range xsd:string .
+c:title rdfs:range xsd:string .
+c:label rdfs:range xsd:string .
+c:name rdfs:range xsd:string .
+c:definition rdfs:range xsd:string .
+c:family rdfs:range xsd:string .
+c:sourceNote rdfs:range xsd:string .
+c:image rdfs:range xsd:string .
+c:genre rdfs:range xsd:string .
+c:origin rdfs:range xsd:string .
+c:note rdfs:range xsd:string .
+c:provider rdfs:range xsd:string .
+c:model rdfs:range xsd:string .
+c:finishReason rdfs:range xsd:string .
+c:revision rdfs:range xsd:integer .
+c:partial rdfs:range xsd:boolean .
+c:settings rdfs:range rdf:JSON .
+c:payload rdfs:range rdf:JSON .
+c:members rdfs:range rdf:List .
+c:narrativeOrder rdfs:range rdf:List .
+c:paragraphs rdfs:range rdf:List .
+c:WritingProfile a owl:Class ; rdfs:subClassOf prov:Plan ;
+ skos:prefLabel "글 형식 작성 계획"@ko, "Composition plan"@en ;
+ skos:definition "글의 구성·문체·근거 사용·점검 규칙을 버전별로 기록한 계획."@ko,
+ "A versioned plan defining structure, voice, evidence use and review instructions."@en .
+c:formatProfile a owl:ObjectProperty ; rdfs:domain c:WritingGuide ; rdfs:range c:WritingProfile .
+c:profileVersion a owl:DatatypeProperty ; rdfs:domain c:WritingProfile ; rdfs:range xsd:string .
+c:profileKey a owl:DatatypeProperty ; rdfs:domain c:WritingProfile ; rdfs:range xsd:string .
+c:profileDefinition a owl:DatatypeProperty ; rdfs:domain c:WritingProfile ; rdfs:range rdf:JSON .
+c:structure a owl:ObjectProperty ; rdfs:domain c:WritingProfile ; rdfs:range rdf:List .
+c:styleRules a owl:ObjectProperty ; rdfs:domain c:WritingProfile ; rdfs:range rdf:List .
+c:evidenceRules a owl:ObjectProperty ; rdfs:domain c:WritingProfile ; rdfs:range rdf:List .
+c:reviewRules a owl:ObjectProperty ; rdfs:domain c:WritingProfile ; rdfs:range rdf:List .

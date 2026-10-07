@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-07T06-46-01-914Z-d83471",
+  "id": "2026-10-07T08-01-14-490Z-fd110f",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "collab-model.js",
-      "sha256": "a683c0b5973c4d548ecf23432f84bb5ad973e4536d1c5e35bf3a8957d25b74af"
+      "sha256": "8d6d3b336486ae7af724e131935af318d4157162e2fe871467de9f8b701b3f26"
     },
     {
       "path": "collab-store.js",
@@ -168,7 +168,7 @@
     },
     {
       "path": "en.html",
-      "sha256": "34f7e3bd195da00a48ce5d68ed99e110cec5532834bf56b203650e7fca1a45b9"
+      "sha256": "3e94809d10fb9c286b4bf94965b4b88e2c972897575c58fb782acd41f427a62f"
     },
     {
       "path": "guide-manual-en.html",
@@ -188,7 +188,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "4885edddd5cec3e8869de648ac1c96f0dcbdc992ec54c2735e566c142553b46f"
+      "sha256": "a57e0661b3e0c3b28216dcf4646e2fc896d0d542eebe78d0e3a3c927f215bb23"
     },
     {
       "path": "interface.css",
@@ -216,7 +216,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "393c418f2432490017145e5ebd6554d77efbeb01c3e36966995bf63fab5959fd"
+      "sha256": "bbe1a51fdcbfbbb4b26de8e2ba408f7046731a33c6cbaee656ad10fa34043e66"
     },
     {
       "path": "locale.css",
@@ -228,27 +228,27 @@
     },
     {
       "path": "model.js",
-      "sha256": "97d89c36070264d4678093af5302422f5c4d2427346d366a481dd9a90966e6ca"
+      "sha256": "09af508c7a38cd9555888c046daed10617d364f095577bcde10cb055925edef6"
     },
     {
       "path": "ontology/shapes.ttl",
-      "sha256": "9082a469fa69a45db183bf26a7cd53931065b9ef1aa84468ee90d42ca7040647"
+      "sha256": "12e6d6129689407fdfcd25ef93b04d8a2960222985a3a146324df1cbb4120b86"
     },
     {
       "path": "ontology/vocabulary.ttl",
-      "sha256": "509cdac3ccf08cf0262eef71dab05fdc887702c6429b6c1af3b88693be4d5a7e"
+      "sha256": "2a9d8d186efd83d659e978d7b0490ddcec515d89d5d92e0eb2e6ef9da60236b1"
     },
     {
       "path": "ontology-data.js",
-      "sha256": "2c0db8993d396019d7b7c354d9c1fc802223f86760cbae29b832b8988ea4e591"
+      "sha256": "bd0ee0a6a42e2b164abd6f215da7c61aaf2bed29fa5f2b6030b136a0d7372dc4"
     },
     {
       "path": "ontology-input.js",
-      "sha256": "cbf067da6a065d22a5894021cc4f61a65e79c6b53b0e3d85198c2f805cd47a50"
+      "sha256": "fe281504a5841e41ef1106581b9e2d2adcbafb407502f2b24a29c1047aaeedc3"
     },
     {
       "path": "ontology-model.js",
-      "sha256": "d9c8e863135e9860490e27bccaea66ec6a87ab6becfa03fbcd07a213ea1ddbf6"
+      "sha256": "b180a6e5a8e6d4511a18871f49a16c7d2489598a1881ba82ae4f7d47dc90ce56"
     },
     {
       "path": "ontology-network.js",
@@ -332,7 +332,11 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "404ea25c7a444c18a220f30470af2a2fc7e87c7d8dbe89811429026c66c5fd11"
+      "sha256": "43307845832eaf73c6de24eb2e6666d8c18aa743b66f8de53fb84ad8806d3f93"
+    },
+    {
+      "path": "writing-profiles.js",
+      "sha256": "a8544a24c775626f105086197ae191d3889a4dbf4f7e3b2d822fc21bf61a2961"
     },
     {
       "path": "writing-result.js",
