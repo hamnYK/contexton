@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-04T21-30-05-310Z-302ce8",
+  "id": "2026-10-07T06-46-01-914Z-d83471",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -216,7 +216,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "de883c8b85c1a2f7b951b16996b158d673b67634746ff8b23f17127dcf930738"
+      "sha256": "393c418f2432490017145e5ebd6554d77efbeb01c3e36966995bf63fab5959fd"
     },
     {
       "path": "locale.css",
@@ -228,7 +228,7 @@
     },
     {
       "path": "model.js",
-      "sha256": "ef7c508483fd8d43e526ad43aaa49718011c01f1a4d3d6b6ebda71e6c99c96dc"
+      "sha256": "97d89c36070264d4678093af5302422f5c4d2427346d366a481dd9a90966e6ca"
     },
     {
       "path": "ontology/shapes.ttl",
@@ -332,7 +332,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "d06b151b9c23fa2b3805b67dcd9dfdc348468eece50795097c5afd08b36da03f"
+      "sha256": "404ea25c7a444c18a220f30470af2a2fc7e87c7d8dbe89811429026c66c5fd11"
     },
     {
       "path": "writing-result.js",
