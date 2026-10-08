@@ -1,7 +1,7 @@
 @import url('theme.css');
 /* Canonical type scale shared by the workspace, viewer and token export. */
 :root{
- --font-sans:Pretendard,"Malgun Gothic",system-ui,sans-serif;
+ --font-sans:"Upright Quotes",Pretendard,"Malgun Gothic",system-ui,sans-serif;
  --font-serif:Batang,"바탕",Georgia,serif;
  --type-title-size:32px;--type-title-line:44px;--type-title-weight:700;
  --type-section-size:24px;--type-section-line:34px;--type-section-weight:700;

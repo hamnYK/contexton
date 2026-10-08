@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-07T08-01-14-490Z-fd110f",
+  "id": "2026-10-08T14-36-59-318Z-4c5aa2",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -60,7 +60,7 @@
     },
     {
       "path": "collab.css",
-      "sha256": "aa0d32c4b1d086a8fa8781e27f2dfebb893be2d2e938b8bfedac1779bd33a6e8"
+      "sha256": "e385bba5c4dbe562a3478bb4e4c2e61493639a42b69a12ebf2fdb51edae41d40"
     },
     {
       "path": "collab.js",
@@ -99,6 +99,26 @@
       "sha256": "fc5e0648d5413b55b79ebbab0f50de561a026574cba3a9c8eb03d5bddd432263"
     },
     {
+      "path": "design-reference/assets/fonts/UPRIGHT-QUOTES.txt",
+      "sha256": "66d3589208faeea63c6ddf6ce658fa3ffe9e1f59fbe87458e70b76f09fad0d62"
+    },
+    {
+      "path": "design-reference/assets/fonts/UprightQuotes-Bold.woff2",
+      "sha256": "b4fbb72f83fa43d6d53557cf3fc197e511bcb80cc022c089188a20c80218fce7"
+    },
+    {
+      "path": "design-reference/assets/fonts/UprightQuotes-Regular.woff2",
+      "sha256": "d0f0e2b52f27c3ef0725d82fc44b612acf7be1e2d3c90c2bea6071f07618d689"
+    },
+    {
+      "path": "design-reference/assets/fonts/UprightQuotesMono-Bold.woff2",
+      "sha256": "683eb94144a5cc5cb669894dad67901519454fc6a478df354b0e1f7bb72d1ddc"
+    },
+    {
+      "path": "design-reference/assets/fonts/UprightQuotesMono-Regular.woff2",
+      "sha256": "6c66771a85a7bfc4b620b743542aaa5947d4454ac81b4a8855b771020173c40c"
+    },
+    {
       "path": "design-reference/assets/images/brand/studio-world.svg",
       "sha256": "73cb6afba4b2f02dbfd89961a8b233cc349ae79cd52d20c9457e17fd9d7796fb"
     },
@@ -116,15 +136,15 @@
     },
     {
       "path": "design-reference/css/fonts.css",
-      "sha256": "790a1e4e0bf7c5c180d8c67e78caf9a39eaee67084f31a79423a7082b63bbbb9"
+      "sha256": "0571b741ee22f154edd08cae086479e1f3e6833b06f2d5a02173b58a992fffd8"
     },
     {
       "path": "design-reference/css/style.css",
-      "sha256": "108b1bc8b9f3a693052af6a9fb1312e64ea46caed7cf397033ea099e1c2fcb16"
+      "sha256": "c0410a0ec1bef670c62e4adc4cc4c5e2868cd879015ed54a1bc60884334d3fbd"
     },
     {
       "path": "design-reference/css/tokens.css",
-      "sha256": "ab3849f252dd761ccd38735ecd6723e0ab9f8c437335220a34e9c0cfadd68d03"
+      "sha256": "4ead755e9efbad0fc3833a645d7bf648623f57cd76fa653f83abfa915e900dc5"
     },
     {
       "path": "design-reference/css/typography.css",
@@ -136,11 +156,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "83ebd58b2138e7482123bc7618b2c1cd966c1cf4cee761c683964cb411a02891"
+      "sha256": "bb78e59ce9c75668000c732af1ce62283dae7419d9ed42e38215086338661018"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "68e0fc59509e185403ff80034a8259c9bb9af497b2ba9ff61added1deae7728b"
+      "sha256": "27e5db2eb2d4d640a4d7761213f6b4a94b28c719f86df627f6c1e4ebdb44299e"
     },
     {
       "path": "design-system.js",
@@ -172,11 +192,11 @@
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "6d830ec5a72a8cbe306d124777f13ce9675057358d193ee5a0370aa7e300c93a"
+      "sha256": "16af3ea01777b2efa28a6bb5f6d197b77f0fe106bb04ef19ecc2f00ba078256c"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "59534708dac2793d87b051ddf5afc44918e7bdad08afdfc26cf6d9f07142b37b"
+      "sha256": "c33f9c466664d58d4e191e589f5d971daa182fb89fd1e159a2bd9097924fa2d2"
     },
     {
       "path": "homepage-link.js",
@@ -216,11 +236,11 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "bbe1a51fdcbfbbb4b26de8e2ba408f7046731a33c6cbaee656ad10fa34043e66"
+      "sha256": "fc9496543b522984bb48484b5575bfba5c20d552b15bc82663bf828d6881a552"
     },
     {
       "path": "locale.css",
-      "sha256": "0745400916c09bdaeaed2b5263efb1ade7cd1a5542140a0f372934f85f7bc7ab"
+      "sha256": "f757cbb7d7e6a7457f8d4ededd627a48a471e82b89a09b3d1bfbaf7a4de1cabf"
     },
     {
       "path": "locale.js",
@@ -292,7 +312,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "76c29c0b07239ce596e4ab1379c0bd1fffde5621a1b9ffbc0ce2d3fd3bb78427"
+      "sha256": "aff0afb993b9357b71954d8c47c52ccd135b975d03d5c14ba63cd9004a83d5dd"
     },
     {
       "path": "supabase-config.js",
@@ -304,11 +324,11 @@
     },
     {
       "path": "theme.css",
-      "sha256": "81516de75c281bf365fcafc03880c86059690f9a7fba85f1667dc6fb29f9bd81"
+      "sha256": "ae30404a1380da85af5bb6f4e75eb50861ff0f5ce7cc4c989742697dd7ff8303"
     },
     {
       "path": "typography.css",
-      "sha256": "dc1e21fe309052931d894e53f8ad71d574ba7671d0d26374f93dc3a0b4865a0e"
+      "sha256": "1ff6d867090a5b39bd8758c41415a5f71e0c8605d8423c5b810c79ec7beeb33a"
     },
     {
       "path": "ui.js",
@@ -340,11 +360,11 @@
     },
     {
       "path": "writing-result.js",
-      "sha256": "268e2d3168348f4042817e85368b747569698d1aea362f659975e27a45ede9a9"
+      "sha256": "bbe4b36c375264ec72942ed32a6195b23f75244f89a0eadcf3c6d040b4b0b2b0"
     },
     {
       "path": "writing.css",
-      "sha256": "d77a0ac882991e2b070e1c9d6b96ed701f387d843ed634cab2cc2d40d35a683e"
+      "sha256": "180e77d30ca1e6110571ab2893dbade644b69a535a6ddc21178a004156633b12"
     },
     {
       "path": "writing.js",
