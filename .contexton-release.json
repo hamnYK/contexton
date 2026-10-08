@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-08T14-36-59-318Z-4c5aa2",
+  "id": "2026-10-08T15-20-02-605Z-cachefix",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -136,19 +136,19 @@
     },
     {
       "path": "design-reference/css/fonts.css",
-      "sha256": "0571b741ee22f154edd08cae086479e1f3e6833b06f2d5a02173b58a992fffd8"
+      "sha256": "b463529b314106266e92c9c93a01f2e7d6f71abd87bd03a4c341fcbc7a5738dd"
     },
     {
       "path": "design-reference/css/style.css",
-      "sha256": "c0410a0ec1bef670c62e4adc4cc4c5e2868cd879015ed54a1bc60884334d3fbd"
+      "sha256": "31d4783999c1515fd341e27f02c9d4925cb61327becf2770aebeb56679cf698c"
     },
     {
       "path": "design-reference/css/tokens.css",
-      "sha256": "4ead755e9efbad0fc3833a645d7bf648623f57cd76fa653f83abfa915e900dc5"
+      "sha256": "3ae027f8d9fde4dcf18adf2d2318e4e0b99882038063a711d67afbb6c6b9fa65"
     },
     {
       "path": "design-reference/css/typography.css",
-      "sha256": "a86fec59b376e7dc5f2174b103ee65156e7e38a44c3fa00ced8cc8db624bfd4f"
+      "sha256": "628fa4248ccc5bbca406b064f6c86d8a433eb42dc9649b385a7f2213f5d83445"
     },
     {
       "path": "design-reference/README.md",
@@ -156,11 +156,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "bb78e59ce9c75668000c732af1ce62283dae7419d9ed42e38215086338661018"
+      "sha256": "b53ef0b9ffcbc8ee04e26b49a9e9ed56dde54878d1bf1b416e6a884769f93d54"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "27e5db2eb2d4d640a4d7761213f6b4a94b28c719f86df627f6c1e4ebdb44299e"
+      "sha256": "37e839838b684e828d214f36811867a2b8962ccf2d9f8e97ca461f7c7c697530"
     },
     {
       "path": "design-system.js",
@@ -188,15 +188,15 @@
     },
     {
       "path": "en.html",
-      "sha256": "3e94809d10fb9c286b4bf94965b4b88e2c972897575c58fb782acd41f427a62f"
+      "sha256": "591019238002d58439e6478d73ac03f31b5c8465f32e4c3d1fee04e5b63e5c5b"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "16af3ea01777b2efa28a6bb5f6d197b77f0fe106bb04ef19ecc2f00ba078256c"
+      "sha256": "3b24ba27d192c32238b7fda6ea4874fb433568e598eca55d6268aac9829de945"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "c33f9c466664d58d4e191e589f5d971daa182fb89fd1e159a2bd9097924fa2d2"
+      "sha256": "65170fb0445c1fd4f482742cdd5decebbab2733c1f9ce0a3eadcd2d3f3e72cc9"
     },
     {
       "path": "homepage-link.js",
@@ -208,7 +208,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "a57e0661b3e0c3b28216dcf4646e2fc896d0d542eebe78d0e3a3c927f215bb23"
+      "sha256": "5c089443cf9604efdbd82649dc01e7a6b572906a15455d8cd7ae8f73228be61a"
     },
     {
       "path": "interface.css",
@@ -284,7 +284,7 @@
     },
     {
       "path": "privacy_policy.html",
-      "sha256": "dfdee64f1ff146e0afb0a4c017358c7b74b968e30718542798f4fb5ea40308ab"
+      "sha256": "5e11412f0e339d9f5d8db809bab8d26619693d511f371d48d1d67711c264fc3c"
     },
     {
       "path": "relation-editor.js",
@@ -320,15 +320,15 @@
     },
     {
       "path": "terms_of_service.html",
-      "sha256": "52ef21288384e99613addfc542b27e54fd709842de3fc3b2f1bed73caf7ef9c6"
+      "sha256": "abfd59f7b10073b413509033791749190d49f642c989f323a553f337effae0b9"
     },
     {
       "path": "theme.css",
-      "sha256": "ae30404a1380da85af5bb6f4e75eb50861ff0f5ce7cc4c989742697dd7ff8303"
+      "sha256": "e3453847ee4c692e483a8e854f530c214767d3487239ca89e9300a228ff01a82"
     },
     {
       "path": "typography.css",
-      "sha256": "1ff6d867090a5b39bd8758c41415a5f71e0c8605d8423c5b810c79ec7beeb33a"
+      "sha256": "74ccadbbbc94ebd92cde3cdfcf4f87f470ecc58900445e549bad4ec1452d4c43"
     },
     {
       "path": "ui.js",

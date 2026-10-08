@@ -1,4 +1,4 @@
-@import url('./fonts.css');
+@import url('./fonts.css?v=b463529b31410626');
 /* Bilingual reading rhythm. Loaded after the page composition stylesheet. */
 html{font-size:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}
 html:lang(en){--font-body:var(--font-sans-en);--font-display:var(--font-display-en)}

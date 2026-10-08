@@ -1,4 +1,4 @@
-@import url('theme.css');
+@import url('theme.css?v=e3453847ee4c692e');
 /* Canonical type scale shared by the workspace, viewer and token export. */
 :root{
  --font-sans:"Upright Quotes",Pretendard,"Malgun Gothic",system-ui,sans-serif;

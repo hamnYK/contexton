@@ -1,16 +1,16 @@
 /* Self-hosted fonts. Licenses and upstream sources: assets/fonts/README.md. */
-@font-face{font-family:SUITE;src:url('../assets/fonts/SUITE-Variable.woff2') format('woff2');font-style:normal;font-weight:300 900;font-display:swap}
-@font-face{font-family:'Space Grotesk';src:url('../assets/fonts/SpaceGrotesk-Variable.woff2') format('woff2');font-style:normal;font-weight:300 700;font-display:swap}
-@font-face{font-family:Pretendard;src:url('../assets/fonts/PretendardVariable.woff2') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
+@font-face{font-family:SUITE;src:url('../assets/fonts/SUITE-Variable.woff2?v=fc5e0648d5413b55') format('woff2');font-style:normal;font-weight:300 900;font-display:swap}
+@font-face{font-family:'Space Grotesk';src:url('../assets/fonts/SpaceGrotesk-Variable.woff2?v=8e085aa438094f11') format('woff2');font-style:normal;font-weight:300 700;font-display:swap}
+@font-face{font-family:Pretendard;src:url('../assets/fonts/PretendardVariable.woff2?v=9599f12fd42fc0bc') format('woff2');font-style:normal;font-weight:100 900;font-display:swap}
 
 /* Keep quote glyphs upright without replacing source characters. */
-@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Regular.woff2') format('woff2');font-style:normal;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Bold.woff2') format('woff2');font-style:normal;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Regular.woff2') format('woff2');font-style:italic;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Bold.woff2') format('woff2');font-style:italic;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Regular.woff2') format('woff2');font-style:normal;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Bold.woff2') format('woff2');font-style:normal;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Regular.woff2') format('woff2');font-style:italic;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
-@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Bold.woff2') format('woff2');font-style:italic;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Regular.woff2?v=d0f0e2b52f27c3ef') format('woff2');font-style:normal;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Bold.woff2?v=b4fbb72f83fa43d6') format('woff2');font-style:normal;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Regular.woff2?v=d0f0e2b52f27c3ef') format('woff2');font-style:italic;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes";src:url('../assets/fonts/UprightQuotes-Bold.woff2?v=b4fbb72f83fa43d6') format('woff2');font-style:italic;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Regular.woff2?v=6c66771a85a7bfc4') format('woff2');font-style:normal;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Bold.woff2?v=683eb94144a5cc5c') format('woff2');font-style:normal;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Regular.woff2?v=6c66771a85a7bfc4') format('woff2');font-style:italic;font-weight:100 599;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
+@font-face{font-family:"Upright Quotes Mono";src:url('../assets/fonts/UprightQuotesMono-Bold.woff2?v=683eb94144a5cc5c') format('woff2');font-style:italic;font-weight:600 900;font-display:swap;unicode-range:U+0022,U+0027,U+2018-201F,U+FF02,U+FF07}
 :root{--font-code:"Upright Quotes Mono",Consolas,monospace}
 code,pre,kbd,samp{font-family:var(--font-code)}
