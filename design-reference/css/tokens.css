@@ -1,4 +1,4 @@
-/* Worflogy Design System 1.3. Change semantic tokens here first. */
+/* contexton product foundation. Keep semantic roles distinct from palette primitives. */
 :root {
   --color-coral: #f16c5b;
   --color-sky: #58b4df;
@@ -6,21 +6,10 @@
   --color-white: #ffffff;
   --color-charcoal: #252a34;
   --color-bone: #fafbfd;
-  --color-stone: #8c9ba9;
-  --color-vermilion: #f16c5b;
-  --color-apricot: #58b4df;
-  --color-surface: #fafbfd;
-  /* Quiet studio atmosphere outside the interactive canvas. */
-  --studio-wash-sky: #58b4df4d;
-  --studio-wash-coral: #f16c5b29;
-  --studio-wash-butter: #f2ce7552;
-  --studio-pixel: #58b4df38;
-  --studio-page-background: radial-gradient(ellipse at 0% 4%, var(--studio-wash-sky), transparent 54%), radial-gradient(ellipse at 100% 35%, var(--studio-wash-butter), transparent 49%), radial-gradient(ellipse at 8% 100%, var(--studio-wash-coral), transparent 50%);
-  --studio-world-art: url("../assets/images/brand/studio-world.svg?v=73cb6afba4b2f02d");
-  --studio-world-opacity: .65;
+  --color-surface: var(--color-bone);
   --color-surface-subtle: #edf5fa;
   --color-surface-hover: #e1eff7;
-  --color-text: #252a34;
+  --color-text: var(--color-charcoal);
   --color-text-muted: #556575;
   --color-text-brand: #a7352c;
   --color-border: #ccdce6;
@@ -44,40 +33,14 @@
   --glass-card-slate-solid: #26364b;
   --glass-card-slate-border: #b5bcff40;
   --color-on-glass: var(--color-white);
-  --color-on-media: var(--color-white);
-  --media-text-stroke: .5px var(--color-charcoal);
   --shadow-media-text: 0 1px 2px var(--color-charcoal), 0 2px 8px var(--color-charcoal);
   --glass-card-blur: 8px;
   --glass-card-shadow: inset 0 0 32px #94ffe508, 0 25px 55px #0004;
   --glass-card-focus-ring: 2px solid var(--color-on-glass);
-  /* Shared canvas roles, consumed by canvas-theme.js. */
+  /* Illustration palette retained by documentation components. */
   --scene-background: var(--color-surface);
   --scene-plane: #e6f0f7;
-  --scene-plane-secondary: #f1f7fb;
-  --scene-plane-result: #faf1d9;
-  --scene-grid: #cedfe9;
-  --scene-border: #9bb6c8;
-  --scene-link: #66859c;
-  --scene-active: #bc4034;
-  --scene-flow: #986b20;
-  --scene-ink: #344559;
-  --scene-dark: #964c42;
-  --scene-accent: #f16c5b;
-  --scene-highlight: #ffb8a7;
-  --scene-pale: #edf5fa;
   --scene-secondary: #58b4df;
-  --scene-secondary-dark: #357a9d;
-  --scene-secondary-light: #ceeafa;
-  --scene-gold: #dcaf48;
-  --scene-cream: #fff0be;
-  --scene-paper: #ffffff;
-  --scene-edge: #a9bfcb;
-  --scene-white: #ffffff;
-  --scene-shadow: #425f75;
-  --scene-skin: #e3c8a4;
-  --scene-tile-side: #c6dce9;
-  --scene-tile-front: #9fbdd0;
-  --scene-tile-selected: #ffe2d6;
   --scene-tile: #ffffff;
   --font-sans-ko: "Upright Quotes","Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
   --font-sans-en: "Upright Quotes","Pretendard", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
@@ -115,11 +78,7 @@
   --radius-card: 6px;
   --radius-dialog: 10px;
   --dialog-shadow: 0 24px 80px #252a3433, 0 4px 16px #425f7514;
-  --dialog-header-background: linear-gradient(115deg, #edf5fa, #fafbfd 60%, #fbf1d4);
-  --dialog-accent: linear-gradient(90deg, var(--color-coral) 0 38%, var(--color-butter) 38% 65%, var(--color-sky) 65%);
   --radius-pill: 999px;
-  --shadow-diagram: 0 8px 28px #425f7508;
-  --duration-preview: 450ms;
   --shadow-control: 0 2px 8px #20201e12;
   --shadow-floating: 0 4px 16px #20201e26;
   --shadow-caption: 0 2px 14px #20201e0a;
@@ -152,3 +111,6 @@
 @media(prefers-reduced-motion:reduce) {
   :root { --duration-fast: 0ms; }
 }
+
+/* Intermediate spacing and corner sizes preserve existing component geometry. */
+:root{--space-half:2px;--space-1-half:6px;--space-2-half:10px;--space-3-half:14px;--space-4-half:18px;--space-5-half:22px;--space-7:28px;--space-9:36px;--space-11:44px;--space-14:56px;--space-20:80px;--space-24:96px;--radius-compact:5px;--radius-medium:7px;--radius-panel:8px;--radius-large:12px;--radius-extra-large:16px;--radius-badge:20px;--radius-capsule:30px;--radius-round:50%;}

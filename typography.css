@@ -1,16 +1,15 @@
-@import url('theme.css?v=e3453847ee4c692e');
+@import url('theme.css?v=d64a4a88b7e1f9f6');
 /* Canonical type scale shared by the workspace, viewer and token export. */
 :root{
- --font-sans:"Upright Quotes",Pretendard,"Malgun Gothic",system-ui,sans-serif;
  --font-serif:Batang,"바탕",Georgia,serif;
- --type-title-size:32px;--type-title-line:44px;--type-title-weight:700;
- --type-section-size:24px;--type-section-line:34px;--type-section-weight:700;
- --type-input-size:16px;--type-input-line:26px;--type-input-weight:400;
- --type-body-size:16px;--type-body-line:26px;--type-body-weight:400;
- --type-label-size:14px;--type-label-line:22px;--type-label-weight:500;
- --type-caption-size:13px;--type-caption-line:21px;--type-caption-weight:400;
- --type-fiction-size:17px;--type-fiction-line:32px;--type-fiction-weight:400;
- --type-micro-size:12px;--type-specimen-size:32px;
+ --type-title-size:var(--font-size-title);--type-title-line:44px;--type-title-weight:var(--font-weight-bold);
+ --type-section-size:var(--font-size-heading);--type-section-line:34px;--type-section-weight:var(--font-weight-bold);
+ --type-input-size:var(--font-size-body);--type-input-line:26px;--type-input-weight:var(--font-weight-regular);
+ --type-body-size:var(--font-size-body);--type-body-line:26px;--type-body-weight:var(--font-weight-regular);
+ --type-label-size:var(--font-size-ui);--type-label-line:22px;--type-label-weight:var(--font-weight-medium);
+ --type-caption-size:var(--font-size-sm);--type-caption-line:21px;--type-caption-weight:var(--font-weight-regular);
+ --type-fiction-size:var(--font-size-reading);--type-fiction-line:32px;--type-fiction-weight:var(--font-weight-regular);
+ --type-micro-size:var(--font-size-xs);--type-specimen-size:var(--font-size-title);
 }
 body{font-family:var(--font-sans);font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
 button,input,select,textarea{font-family:var(--font-sans)}
@@ -20,7 +19,7 @@ textarea,.workspace input:not([type=checkbox]):not([type=file]),.workspace selec
 .workspace-node p,.discussion-comment p,.evidence-item p,.relation-detail>p,.draft-paragraph>p,.type-body{font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:var(--type-body-weight)}
 .primary-button,.secondary-button,.text-link,label,.workspace label,.type-label{font-size:var(--type-label-size);line-height:var(--type-label-line);font-weight:var(--type-label-weight)}
 .draft-paper[data-genre="fiction"] .draft-paragraph>p{font-family:var(--font-serif);font-size:var(--type-fiction-size);line-height:var(--type-fiction-line);font-weight:var(--type-fiction-weight)}
-.type-scale p{margin-top:8px}.mini-network{min-height:340px}.node-id,.art-caption{font-size:var(--type-micro-size)}
+.type-scale p{margin-top:var(--space-2)}.mini-network{min-height:340px}.node-id,.art-caption{font-size:var(--type-micro-size)}
 .type-scale .type-title{font-size:var(--type-title-size);line-height:var(--type-title-line);font-weight:var(--type-title-weight)}
 .type-scale .type-section{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:var(--type-section-weight)}
 .type-scale .type-input{font-size:var(--type-input-size);line-height:var(--type-input-line);font-weight:var(--type-input-weight)}
@@ -33,22 +32,22 @@ body{letter-spacing:0}
 button,input,select,textarea{letter-spacing:normal}
 .primary-button,.secondary-button,.tool-button,.writing-tab{min-height:42px}
 .canvas-app .canvas-header .text-link,.canvas-app .canvas-toolbar .tool-button,.canvas-app .canvas-header-actions button,.canvas-app .writing-tab{font-size:var(--type-label-size);line-height:var(--type-label-line)}
-.canvas-app .workspace-node strong{font-size:17px;line-height:26px;font-weight:600}
+.canvas-app .workspace-node strong{font-size:var(--font-size-reading);line-height:26px;font-weight:var(--font-weight-semibold)}
 .canvas-app .workspace-node p{font-size:var(--type-body-size);line-height:var(--type-body-line)}
 .canvas-app .workspace-node small,.canvas-app #canvas-selection-status,.canvas-app .canvas-bottom-note,.canvas-app .canvas-statusbar #storage-status{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
 .canvas-app .canvas-edge-label{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
-.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:600}
+.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:var(--type-section-size);line-height:var(--type-section-line);font-weight:var(--font-weight-semibold)}
 #ontology-view .ontology-controls label,#ontology-view .ontology-inspection>label{font-size:var(--type-label-size);line-height:var(--type-label-line)}
 #ontology-detail p{font-size:var(--type-body-size);line-height:var(--type-body-line)}
 #ontology-detail h4,#ontology-view footer,#ontology-counts,.ontology-legend,.ontology-hint{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
 #cloud-dialog .workspace-note,.workspace-note,.writing-hint,.writing-status,.component-note{font-size:var(--type-label-size);line-height:24px;color:var(--muted)}
 #cloud-status,#collab-message{font-size:var(--type-body-size);line-height:var(--type-body-line)}
-#cloud-dialog .cloud-body label,.api-settings label{font-weight:500;color:var(--ink)}
+#cloud-dialog .cloud-body label,.api-settings label{font-weight:var(--font-weight-medium);color:var(--ink)}
 #canvas-library .canvas-chip-open{font-size:var(--type-caption-size);line-height:var(--type-caption-line)}
 #cloud-dialog .cloud-body>p,#cloud-dialog #cloud-auth,#cloud-dialog #cloud-reset{max-width:680px}
 #cloud-dialog .account-tabs button{font-size:var(--type-label-size);line-height:var(--type-label-line)}
-#cloud-dialog>.inspector-header{gap:16px}#cloud-close{flex-shrink:0}
-.canvas-header-actions{gap:10px}.canvas-app .canvas-document{flex-shrink:0}
-@media(max-width:650px){.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:18px;line-height:28px}.canvas-app .canvas-header .text-link{font-size:13px}.canvas-app .canvas-bottom-note{font-size:12px;line-height:20px}.canvas-app .writing-tab{padding:10px 8px}}
+#cloud-dialog>.inspector-header{gap:var(--space-4)}#cloud-close{flex-shrink:0}
+.canvas-header-actions{gap:var(--space-2-half)}.canvas-app .canvas-document{flex-shrink:0}
+@media(max-width:650px){.canvas-app .inspector-header strong,#ontology-view .ontology-header h2{font-size:var(--font-size-lead);line-height:28px}.canvas-app .canvas-header .text-link{font-size:var(--font-size-sm)}.canvas-app .canvas-bottom-note{font-size:var(--font-size-xs);line-height:20px}.canvas-app .writing-tab{padding:var(--space-2-half) var(--space-2)}}
 
 h1,h2,h3,.brand,.inspector-header strong{font-family:var(--font-heading)}h1:lang(en),h2:lang(en),h3:lang(en){font-family:var(--font-heading-en)}

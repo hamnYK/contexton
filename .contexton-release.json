@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-08T15-20-02-605Z-cachefix",
+  "id": "2026-10-12T11-48-44-495Z-24beef",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "path": "app.js",
-      "sha256": "c37f87817deaa548b37411976e7a24e3d4d1ab9b1210d8b0685b32e8f08695fb"
+      "sha256": "d129ee1e88fa482700105e976de636ac8276fb06879331c70ebd1baa9cb5892b"
     },
     {
       "path": "canvas-delete.js",
@@ -28,15 +28,15 @@
     },
     {
       "path": "canvas-popover.js",
-      "sha256": "78684d8a988cd2130aea570e737a7e6fdf8ce6ed654e6e80e3c9344c859a6ea6"
+      "sha256": "d376ce5b94381af829d5fcfaa4d8b6d0de403d25d775a43252032f8c70c1822c"
     },
     {
       "path": "canvas.css",
-      "sha256": "c8859badb3cfbcc55ee73dd5877a19362e2840ab361228b8ddc5404d54d2c3cb"
+      "sha256": "483092f1c844d5e2046a6988982c4cc1b67708b38fd60852d68ccdc8ed1ea6d9"
     },
     {
       "path": "canvas.js",
-      "sha256": "ce76c1def5ef566922c8e5afcff9bb1db0841b51eb28aafd6238c151f0c90c0d"
+      "sha256": "a5604797a9ea3ee1de18607d3b80558fb19de0e963a2470df076c1cacbd4eff2"
     },
     {
       "path": "cloud-store.js",
@@ -44,7 +44,7 @@
     },
     {
       "path": "cloud.css",
-      "sha256": "5ba9301262dab0b5243894bacdef847124f600f7da75a291bd9a11a2456f0c2b"
+      "sha256": "2131a0808ef2a0b8eee14962eb9cbc530d29f0879fe3d89f6f57bd20206ff38b"
     },
     {
       "path": "cloud.js",
@@ -60,7 +60,7 @@
     },
     {
       "path": "collab.css",
-      "sha256": "e385bba5c4dbe562a3478bb4e4c2e61493639a42b69a12ebf2fdb51edae41d40"
+      "sha256": "0f77a455c1ef79260a4127f8bdc62175f869f94f3dced58cbb8c70fe40029ebd"
     },
     {
       "path": "collab.js",
@@ -68,7 +68,7 @@
     },
     {
       "path": "design-access.css",
-      "sha256": "07a7cfa575dabb6af32d4c3f57944c07a560e791f35348d9fef7a189cbaa32e9"
+      "sha256": "79f7105a0410fdabc61d81d9b37be012247de3354075ef8de95df05613f29c78"
     },
     {
       "path": "design-access.js",
@@ -124,7 +124,7 @@
     },
     {
       "path": "design-reference/contexton.css",
-      "sha256": "b4b48e5f13e1aaf9c7e09afe3e277684d59b90b372900a6a64322df6e61d52c8"
+      "sha256": "12108bf36a73d8a9116443253e251043a954f5af4b456fb9f794158117a52c87"
     },
     {
       "path": "design-reference/css/components.css",
@@ -132,7 +132,7 @@
     },
     {
       "path": "design-reference/css/design-system.css",
-      "sha256": "b817e2616b3c38b582f0af2115072a176b52d58df8e6d8592dce46a45547b6c9"
+      "sha256": "f78e7f8ce32edcd7179f9d7607cb1d8bca43ad8501bfd2d2306991500279354b"
     },
     {
       "path": "design-reference/css/fonts.css",
@@ -140,15 +140,15 @@
     },
     {
       "path": "design-reference/css/style.css",
-      "sha256": "31d4783999c1515fd341e27f02c9d4925cb61327becf2770aebeb56679cf698c"
+      "sha256": "941b5b6e13faae18a6d72507c344cabbf749b56bb6575c1dff35ce076dc595b8"
     },
     {
       "path": "design-reference/css/tokens.css",
-      "sha256": "3ae027f8d9fde4dcf18adf2d2318e4e0b99882038063a711d67afbb6c6b9fa65"
+      "sha256": "98bc8056149318dc19ffb5cdadb0d6051a3a066b2a94f276ef15ddc0d2d666f1"
     },
     {
       "path": "design-reference/css/typography.css",
-      "sha256": "628fa4248ccc5bbca406b064f6c86d8a433eb42dc9649b385a7f2213f5d83445"
+      "sha256": "f6e4a5a55cebd83bceb3fc7b1f565bf28733b26483b657fc0ac805937d5b054d"
     },
     {
       "path": "design-reference/README.md",
@@ -156,19 +156,19 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "b53ef0b9ffcbc8ee04e26b49a9e9ed56dde54878d1bf1b416e6a884769f93d54"
+      "sha256": "ca1392f7cb90a2424188c698dfe2bcdba6b26a09b4bcc3d6e0fae7624c0d900e"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "37e839838b684e828d214f36811867a2b8962ccf2d9f8e97ca461f7c7c697530"
+      "sha256": "7372d46f32c659861424fce14e01777a019d2d64c6373987f459342bd914710d"
     },
     {
       "path": "design-system.js",
-      "sha256": "7b3881befd767908a1b8ce2120621bc13a6b485c0f198b5b76e2a250646f413a"
+      "sha256": "0d6b72321c549ca371a6f2358d237c027d8e69accfa0174586107bfcfad0e4a7"
     },
     {
       "path": "documentation-shell.css",
-      "sha256": "0dcfeaeb4e8265d33cf92765ec46f5c3526082df88edeaee4cc5de0f59306170"
+      "sha256": "359adf2e3bee04b74565464c02f34bfb2d5cc650c3632116167d46d6f08ef7ba"
     },
     {
       "path": "documentation-shell.js",
@@ -176,11 +176,11 @@
     },
     {
       "path": "documentation.css",
-      "sha256": "651b5bb272e2bd699820bd43626c22c29aeebe090f71f0cca71f48ad2631c9e4"
+      "sha256": "0961d6e74f3d4a2efbf9a2d32116554dd2b2c10422b8224e256dcc6d2b35817f"
     },
     {
       "path": "donation.css",
-      "sha256": "70345ee4b0b3c0e2ec85af35567136cc1328cce24b8e60962184808c975f14f3"
+      "sha256": "a9a30867cee342b360a5b8915347115559e7ed1928e9e851c10536d60ad6f1c8"
     },
     {
       "path": "donation.js",
@@ -188,15 +188,15 @@
     },
     {
       "path": "en.html",
-      "sha256": "591019238002d58439e6478d73ac03f31b5c8465f32e4c3d1fee04e5b63e5c5b"
+      "sha256": "d83f0208244ce02127b1fd57be4fc7271b79ea99383bb0d011f4cdb5cc442ffd"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "3b24ba27d192c32238b7fda6ea4874fb433568e598eca55d6268aac9829de945"
+      "sha256": "511096a14b8f99c515fbe7b97df96196242fedfe03e0105481d78f20c7ad81ee"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "65170fb0445c1fd4f482742cdd5decebbab2733c1f9ce0a3eadcd2d3f3e72cc9"
+      "sha256": "2bd03fd5ca4cf06fb50cf4eab3457effc728db61564628b18ec68d374af32b9a"
     },
     {
       "path": "homepage-link.js",
@@ -204,23 +204,23 @@
     },
     {
       "path": "icons.css",
-      "sha256": "79e54c2c448d4086585d692401519cef860fd5767ee87d4b5d48cfd9e49ae926"
+      "sha256": "20437284db53e8350efe3f72f910335ae8e8d9e9d5fe846875c32286420bfff5"
     },
     {
       "path": "index.html",
-      "sha256": "5c089443cf9604efdbd82649dc01e7a6b572906a15455d8cd7ae8f73228be61a"
+      "sha256": "411302533a8d878ee4b4881f26d82e8abe3f4e60aacb9d3d4d0cb508c23227fe"
     },
     {
       "path": "interface.css",
-      "sha256": "81301c4db046037f033efdebb727c5c22ab398833188192dd1e157c36331848e"
+      "sha256": "1588d10982d5c033542c436a2722bb369d2a90b5a4e567483d2fbc1c1c4cbcfa"
     },
     {
       "path": "legal-modal.js",
-      "sha256": "cafe70d86d567b8e78c0c4d26407c9ef21e5484829fe262abe9840dcaa58ef49"
+      "sha256": "7c47b718f95e4cfacdbc394d5fdba0c05894b2c75db1ac1fb1ab04eda77ad9d9"
     },
     {
       "path": "legal.css",
-      "sha256": "7d3ecfec907f49b02f80d42214b127de5a96aa7063023685757765ceac9e13cd"
+      "sha256": "a8fc46f4175d33bb0f75d2a553074f41ad05fae62b1441a85489c88244f1fa53"
     },
     {
       "path": "lib/supabase-LICENSE.txt",
@@ -240,7 +240,7 @@
     },
     {
       "path": "locale.css",
-      "sha256": "f757cbb7d7e6a7457f8d4ededd627a48a471e82b89a09b3d1bfbaf7a4de1cabf"
+      "sha256": "59750ebabe1f140aa110bdf5edfce0b1b2836f489c3ee86deeee2f487c2b8ea5"
     },
     {
       "path": "locale.js",
@@ -272,11 +272,11 @@
     },
     {
       "path": "ontology-network.js",
-      "sha256": "7b496380679bdd0063dff2a00c95fb3d54761e3df806d70e6b86e6981f540d3d"
+      "sha256": "14fc56ad80f124e884dd94d03ea0e9102863bbe5959a4b10168a5b4b5d87048c"
     },
     {
       "path": "ontology-view.css",
-      "sha256": "772051b08fdd99de3bf182879218fe2a98a709f4648cec79e8b7a99a4b722d12"
+      "sha256": "1bd4a831d7de5e98544f42800aa07edd78327cbf12dee16467e22f49d7fd97c0"
     },
     {
       "path": "ontology-view.js",
@@ -284,7 +284,7 @@
     },
     {
       "path": "privacy_policy.html",
-      "sha256": "5e11412f0e339d9f5d8db809bab8d26619693d511f371d48d1d67711c264fc3c"
+      "sha256": "72f70418fb611df9d4a9f6cd122e18e07babe76dafea3b86363ca20269f5aa5a"
     },
     {
       "path": "relation-editor.js",
@@ -312,7 +312,7 @@
     },
     {
       "path": "styles.css",
-      "sha256": "aff0afb993b9357b71954d8c47c52ccd135b975d03d5c14ba63cd9004a83d5dd"
+      "sha256": "012eef26f494685fd40fbd5fa6ddce5235f9d6012fd2c090dc7d4b24acd8e98c"
     },
     {
       "path": "supabase-config.js",
@@ -320,15 +320,15 @@
     },
     {
       "path": "terms_of_service.html",
-      "sha256": "abfd59f7b10073b413509033791749190d49f642c989f323a553f337effae0b9"
+      "sha256": "69e685c9b8d325b4a3692067bbc9195f80b7d9d02262276e2d47a14f2feb7f7c"
     },
     {
       "path": "theme.css",
-      "sha256": "e3453847ee4c692e483a8e854f530c214767d3487239ca89e9300a228ff01a82"
+      "sha256": "d64a4a88b7e1f9f6faccd1361efb1938fd33a7111726f32c26f82ad2d08e7710"
     },
     {
       "path": "typography.css",
-      "sha256": "74ccadbbbc94ebd92cde3cdfcf4f87f470ecc58900445e549bad4ec1452d4c43"
+      "sha256": "1e4eba5fbd71b237d5888e315dddbfdfa4ead8c60d47ce295db142720c7727b1"
     },
     {
       "path": "ui.js",
@@ -340,7 +340,7 @@
     },
     {
       "path": "workspace.css",
-      "sha256": "6732110b38c6cec28aa8c218e56e74c3e57b12f068a7d9c3866d8c62b7efc8c6"
+      "sha256": "023df2538f242d679c22d0f4ec31d8fd4e0fb2af1468a8cb2711303d8e8b8eee"
     },
     {
       "path": "workspace.js",
@@ -352,7 +352,7 @@
     },
     {
       "path": "writing-guide.js",
-      "sha256": "43307845832eaf73c6de24eb2e6666d8c18aa743b66f8de53fb84ad8806d3f93"
+      "sha256": "d377b976cb9f497b09cc452511bd6de07a8a517c0e9a43b69d7f4ebc2233ef7b"
     },
     {
       "path": "writing-profiles.js",
@@ -364,7 +364,7 @@
     },
     {
       "path": "writing.css",
-      "sha256": "180e77d30ca1e6110571ab2893dbade644b69a535a6ddc21178a004156633b12"
+      "sha256": "3ef23b5440fe1e14baa56f1e8d2c131914d1801850784976e3243739fe5da007"
     },
     {
       "path": "writing.js",
