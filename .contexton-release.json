@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-12T11-48-44-495Z-24beef",
+  "id": "2026-10-16T03-04-36-542Z-b129f0",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -24,7 +24,7 @@
     },
     {
       "path": "canvas-library.js",
-      "sha256": "70f2a658da34db65beb38f5661f5862d6335c6691402477d9e2dd9d4934fcddd"
+      "sha256": "c3c7a7531252ac6f6389c424a30895b7ca442374a36f99ce8de82d3583aee16d"
     },
     {
       "path": "canvas-popover.js",
@@ -188,7 +188,7 @@
     },
     {
       "path": "en.html",
-      "sha256": "d83f0208244ce02127b1fd57be4fc7271b79ea99383bb0d011f4cdb5cc442ffd"
+      "sha256": "f5acdb0586350253c00cf94a6aa7077b318cf905eae427b8bfd2eb519b958180"
     },
     {
       "path": "guide-manual-en.html",
@@ -208,7 +208,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "411302533a8d878ee4b4881f26d82e8abe3f4e60aacb9d3d4d0cb508c23227fe"
+      "sha256": "2528ad3f04cf94dd07d5a6d51ee40876464a5e27f228b9757c4b455952ef4551"
     },
     {
       "path": "interface.css",
