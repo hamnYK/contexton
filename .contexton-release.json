@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-16T03-04-36-542Z-b129f0",
+  "id": "2026-10-16T06-11-10-205Z-5dbab9",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -149,10 +149,6 @@
     {
       "path": "design-reference/css/typography.css",
       "sha256": "f6e4a5a55cebd83bceb3fc7b1f565bf28733b26483b657fc0ac805937d5b054d"
-    },
-    {
-      "path": "design-reference/README.md",
-      "sha256": "e6954869bd8e42ed7f15d171c7819393312025c642590ea621dd5374c9d15017"
     },
     {
       "path": "design-system-view-en.html",
