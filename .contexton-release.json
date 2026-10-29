@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-29T00-39-33-614Z-d800cd",
+  "id": "2026-10-29T01-12-21-841Z-b0ace9",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -184,7 +184,7 @@
     },
     {
       "path": "en.html",
-      "sha256": "c9b22b654ed96a13bd14286d91efc6e585aefde3f46e7622ab4bdf58dc9a8627"
+      "sha256": "578db6c68bd7503d1469c795cf7a1cf130abac723844d97adb93697bcfa49ab3"
     },
     {
       "path": "guide-manual-en.html",
@@ -204,7 +204,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "2efdcbfe779d2e1049577ae2dbf8101ef3d5124272538bf63c7e63c0ca9d84c1"
+      "sha256": "83a91f76947f8c16a910c419834df7c0c66e93851641def6be3c326cce341519"
     },
     {
       "path": "interface.css",
@@ -244,7 +244,7 @@
     },
     {
       "path": "model.js",
-      "sha256": "0fa6f27e90d41768fe051c5cc62ee570c1717e62875357910399dbfd494af8bd"
+      "sha256": "511cc2cf7701dd57e27b5a9be07c3c99c487131795196aa4c8c0153897e7d8a8"
     },
     {
       "path": "ontology-data.js",
