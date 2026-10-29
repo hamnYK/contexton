@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-16T06-11-10-205Z-5dbab9",
+  "id": "2026-10-29T00-39-33-614Z-d800cd",
   "obfuscator": "5.8.1",
   "files": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "path": "admin.js",
-      "sha256": "bf1ea4416db784dedbdec90ce21a07e34f78a6f25b64edf3ebf440c852793488"
+      "sha256": "c079f5417d8b24a5cbd3d52fd4cd5778a561d162dea89f1e234a656e7cf3960a"
     },
     {
       "path": "ai-client.js",
@@ -40,7 +40,7 @@
     },
     {
       "path": "cloud-store.js",
-      "sha256": "7a7c1619e2ae2db82779c3f6e8444737a53147c4492514998c792d3dfdd951dc"
+      "sha256": "d62a320a13a1aa8c195d18cbfafc513ca132cc7314c22fff3be5342f2890c20e"
     },
     {
       "path": "cloud.css",
@@ -52,11 +52,11 @@
     },
     {
       "path": "collab-model.js",
-      "sha256": "8d6d3b336486ae7af724e131935af318d4157162e2fe871467de9f8b701b3f26"
+      "sha256": "de501b5aefb935518d3f92d226fe9c1dae720f962b1abc88ef42df192229f9c1"
     },
     {
       "path": "collab-store.js",
-      "sha256": "eb086b00684f8daa0c7e4cf0cb41c093ecba44a6b9be50355f8d2e97d0c18685"
+      "sha256": "b304dfafa9922fdd8ab40bc437aa893afdccfb920471a23015ebfe482339954b"
     },
     {
       "path": "collab.css",
@@ -152,11 +152,11 @@
     },
     {
       "path": "design-system-view-en.html",
-      "sha256": "ca1392f7cb90a2424188c698dfe2bcdba6b26a09b4bcc3d6e0fae7624c0d900e"
+      "sha256": "f4c82f1db4f63752cd2ad2bb48c3a5c13499b8b7a628ef2de32be01b39a05be7"
     },
     {
       "path": "design-system-view.html",
-      "sha256": "7372d46f32c659861424fce14e01777a019d2d64c6373987f459342bd914710d"
+      "sha256": "e3d69b70a5a4f0e6cb0c673551b66f2b9b118139eabf1c91d45fc7a4672a3de0"
     },
     {
       "path": "design-system.js",
@@ -184,15 +184,15 @@
     },
     {
       "path": "en.html",
-      "sha256": "f5acdb0586350253c00cf94a6aa7077b318cf905eae427b8bfd2eb519b958180"
+      "sha256": "c9b22b654ed96a13bd14286d91efc6e585aefde3f46e7622ab4bdf58dc9a8627"
     },
     {
       "path": "guide-manual-en.html",
-      "sha256": "511096a14b8f99c515fbe7b97df96196242fedfe03e0105481d78f20c7ad81ee"
+      "sha256": "3850be2e0ff7ab71f27289490d4161225b49198458298299149875f4dafeeb84"
     },
     {
       "path": "guide-manual.html",
-      "sha256": "2bd03fd5ca4cf06fb50cf4eab3457effc728db61564628b18ec68d374af32b9a"
+      "sha256": "22d088207233d8dcfbcda4675e142e15523afef6aa2291c6f968eb3fae425e54"
     },
     {
       "path": "homepage-link.js",
@@ -204,7 +204,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "2528ad3f04cf94dd07d5a6d51ee40876464a5e27f228b9757c4b455952ef4551"
+      "sha256": "2efdcbfe779d2e1049577ae2dbf8101ef3d5124272538bf63c7e63c0ca9d84c1"
     },
     {
       "path": "interface.css",
@@ -232,7 +232,7 @@
     },
     {
       "path": "locale-data.js",
-      "sha256": "fc9496543b522984bb48484b5575bfba5c20d552b15bc82663bf828d6881a552"
+      "sha256": "abe29b069b142de0298e286af94b0ef49b72f35c2387c79785ee26585c8e2b89"
     },
     {
       "path": "locale.css",
@@ -244,15 +244,7 @@
     },
     {
       "path": "model.js",
-      "sha256": "09af508c7a38cd9555888c046daed10617d364f095577bcde10cb055925edef6"
-    },
-    {
-      "path": "ontology/shapes.ttl",
-      "sha256": "12e6d6129689407fdfcd25ef93b04d8a2960222985a3a146324df1cbb4120b86"
-    },
-    {
-      "path": "ontology/vocabulary.ttl",
-      "sha256": "2a9d8d186efd83d659e978d7b0490ddcec515d89d5d92e0eb2e6ef9da60236b1"
+      "sha256": "0fa6f27e90d41768fe051c5cc62ee570c1717e62875357910399dbfd494af8bd"
     },
     {
       "path": "ontology-data.js",
@@ -260,11 +252,11 @@
     },
     {
       "path": "ontology-input.js",
-      "sha256": "fe281504a5841e41ef1106581b9e2d2adcbafb407502f2b24a29c1047aaeedc3"
+      "sha256": "dfe719dbebc8d37a04fbc865a91ed19e74c61b9c2e683c56f39e537d9e07e218"
     },
     {
       "path": "ontology-model.js",
-      "sha256": "b180a6e5a8e6d4511a18871f49a16c7d2489598a1881ba82ae4f7d47dc90ce56"
+      "sha256": "092417cd75d4e3493a161a105a4641591e3791d80589afd398cbbaabfff59127"
     },
     {
       "path": "ontology-network.js",
@@ -276,7 +268,7 @@
     },
     {
       "path": "ontology-view.js",
-      "sha256": "b53ee5e00b9b8c80d03c1eecd842fde9a9347bfdcce14d3c1ee702acce68c5be"
+      "sha256": "2b11eb9ea450a6b1be5fbc79d3e84a5ddbee3986eb591e118d81efd2f159808e"
     },
     {
       "path": "privacy_policy.html",
@@ -340,7 +332,7 @@
     },
     {
       "path": "workspace.js",
-      "sha256": "f9be174e9e4b0aba99f83e02c7761eccb43db3cfc8eb78a921d269ea8eb047c3"
+      "sha256": "6dcc173721de2a51f73c6e21fcfee476d1d05d6d817611eb1bb6bda6af25aad4"
     },
     {
       "path": "writing-ai.js",
